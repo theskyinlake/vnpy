@@ -1,0 +1,4051 @@
+﻿<?xml version="1.0" ?>
+<brokers currentBroker="上期技术SimNow_CTP" currentGroup="主站" currentType="CTP">
+<broker brokerid="8070" brokername="上海中期_CTP" attribute="0" qsid="CTP">
+<group brokername="上海中期_CTP" groupname="上海电信">
+<hq>
+<server server="180.168.214.246" port="41213" type="0"/>
+<server server="180.168.214.247" port="41213" type="0"/>
+<server server="180.168.214.248" port="41213" type="0"/>
+<server server="180.168.214.244" port="41213" type="0"/>
+<server server="180.168.214.245" port="41213" type="0"/>
+<server server="zjzx-md1.ctp.shcifco.com" port="41213" type="0"/>
+<server server="zjzx-md2.ctp.shcifco.com" port="41213" type="0"/>
+<server server="zjzx-md3.ctp.shcifco.com" port="41213" type="0"/>
+<server server="zjzx-md4.ctp.shcifco.com" port="41213" type="0"/>
+<server server="zjzx-md5.ctp.shcifco.com" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.168.214.246" port="41205" type="1"/>
+<server server="180.168.214.247" port="41205" type="1"/>
+<server server="180.168.214.248" port="41205" type="1"/>
+<server server="180.168.214.244" port="41205" type="1"/>
+<server server="180.168.214.245" port="41205" type="1"/>
+<server server="zjzx-front1.ctp.shcifco.com" port="41205" type="1"/>
+<server server="zjzx-front2.ctp.shcifco.com" port="41205" type="1"/>
+<server server="zjzx-front3.ctp.shcifco.com" port="41205" type="1"/>
+<server server="zjzx-front4.ctp.shcifco.com" port="41205" type="1"/>
+<server server="zjzx-front5.ctp.shcifco.com" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="上海中期_CTP" groupname="上海网通">
+<hq>
+<server server="27.115.57.147" port="41213" type="0"/>
+<server server="27.115.57.148" port="41213" type="0"/>
+<server server="27.115.57.150" port="41213" type="0"/>
+<server server="27.115.57.145" port="41213" type="0"/>
+<server server="27.115.57.146" port="41213" type="0"/>
+<server server="zjzx-md13.ctp.shcifco.com" port="41213" type="0"/>
+<server server="zjzx-md14.ctp.shcifco.com" port="41213" type="0"/>
+<server server="zjzx-md15.ctp.shcifco.com" port="41213" type="0"/>
+<server server="zjzx-md11.ctp.shcifco.com" port="41213" type="0"/>
+<server server="zjzx-md12.ctp.shcifco.com" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="27.115.57.147" port="41205" type="1"/>
+<server server="27.115.57.148" port="41205" type="1"/>
+<server server="27.115.57.150" port="41205" type="1"/>
+<server server="27.115.57.145" port="41205" type="1"/>
+<server server="27.115.57.146" port="41205" type="1"/>
+<server server="zjzx-front13.ctp.shcifco.com" port="41205" type="1"/>
+<server server="zjzx-front14.ctp.shcifco.com" port="41205" type="1"/>
+<server server="zjzx-front15.ctp.shcifco.com" port="41205" type="1"/>
+<server server="zjzx-front11.ctp.shcifco.com" port="41205" type="1"/>
+<server server="zjzx-front12.ctp.shcifco.com" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="上海中期_CTP" groupname="盘后查询电信">
+<hq>
+<server server="180.168.214.249" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.168.214.249" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="上海中期_CTP" groupname="盘后查询网通">
+<hq>
+<server server="27.115.57.149" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="27.115.57.149" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="8070" brokername="上海中期二席_CTP" attribute="0" qsid="CTP">
+<group brokername="上海中期二席_CTP" groupname="上海电信">
+<hq>
+<server server="qhds-md1.ctp.shcifco.com" port="41213" type="0"/>
+<server server="qhds-md2.ctp.shcifco.com" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="qhds-front1.ctp.shcifco.com" port="41205" type="1"/>
+<server server="qhds-front2.ctp.shcifco.com" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="上海中期二席_CTP" groupname="上海网通">
+<hq>
+<server server="qhds-md3.ctp.shcifco.com" port="41213" type="0"/>
+<server server="qhds-md4.ctp.shcifco.com" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="qhds-front3.ctp.shcifco.com" port="41205" type="1"/>
+<server server="qhds-front4.ctp.shcifco.com" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="上海中期二席_CTP" groupname="盘后查询电信">
+<hq>
+<server server="zjzx-md20.ctp.shcifco.com" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="zjzx-front20.ctp.shcifco.com" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="上海中期二席_CTP" groupname="盘后查询网通">
+<hq>
+<server server="zjzx-md21.ctp.shcifco.com" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="zjzx-front21.ctp.shcifco.com" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="8080" brokername="华泰期货_CTP" attribute="0" qsid="CTP">
+<group brokername="华泰期货_CTP" groupname="上海电信">
+<hq>
+<server server="180.168.212.228" port="41213" type="0"/>
+<server server="180.168.212.229" port="41213" type="0"/>
+<server server="180.168.212.230" port="41213" type="0"/>
+<server server="180.168.212.231" port="41213" type="0"/>
+<server server="180.168.212.232" port="41213" type="0"/>
+<server server="180.168.212.233" port="41213" type="0"/>
+<server server="hq1.htgwf.net" port="41213" type="0"/>
+<server server="hq2.htgwf.net" port="41213" type="0"/>
+<server server="hq3.htgwf.net" port="41213" type="0"/>
+<server server="hq4.htgwf.net" port="41213" type="0"/>
+<server server="hq5.htgwf.net" port="41213" type="0"/>
+<server server="hq6.htgwf.net" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.168.212.228" port="41205" type="1"/>
+<server server="180.168.212.229" port="41205" type="1"/>
+<server server="180.168.212.230" port="41205" type="1"/>
+<server server="180.168.212.231" port="41205" type="1"/>
+<server server="180.168.212.232" port="41205" type="1"/>
+<server server="180.168.212.233" port="41205" type="1"/>
+<server server="jy1.htgwf.net" port="41205" type="1"/>
+<server server="jy2.htgwf.net" port="41205" type="1"/>
+<server server="jy3.htgwf.net" port="41205" type="1"/>
+<server server="jy4.htgwf.net" port="41205" type="1"/>
+<server server="jy5.htgwf.net" port="41205" type="1"/>
+<server server="jy6.htgwf.net" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="华泰期货_CTP" groupname="上海网通">
+<hq>
+<server server="27.115.78.180" port="41213" type="0"/>
+<server server="27.115.78.181" port="41213" type="0"/>
+<server server="27.115.78.182" port="41213" type="0"/>
+<server server="27.115.78.183" port="41213" type="0"/>
+<server server="27.115.78.184" port="41213" type="0"/>
+<server server="27.115.78.185" port="41213" type="0"/>
+<server server="hq8.htgwf.net" port="41213" type="0"/>
+<server server="hq9.htgwf.net" port="41213" type="0"/>
+<server server="hq10.htgwf.net" port="41213" type="0"/>
+<server server="hq11.htgwf.net" port="41213" type="0"/>
+<server server="hq12.htgwf.net" port="41213" type="0"/>
+<server server="hq13.htgwf.net" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="27.115.78.180" port="41205" type="1"/>
+<server server="27.115.78.181" port="41205" type="1"/>
+<server server="27.115.78.182" port="41205" type="1"/>
+<server server="27.115.78.183" port="41205" type="1"/>
+<server server="27.115.78.184" port="41205" type="1"/>
+<server server="27.115.78.185" port="41205" type="1"/>
+<server server="jy8.htgwf.net" port="41205" type="1"/>
+<server server="jy9.htgwf.net" port="41205" type="1"/>
+<server server="jy10.htgwf.net" port="41205" type="1"/>
+<server server="jy11.htgwf.net" port="41205" type="1"/>
+<server server="jy12.htgwf.net" port="41205" type="1"/>
+<server server="jy13.htgwf.net" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="华泰期货_CTP" groupname="北京电信">
+<hq>
+<server server="61.135.198.1" port="41213" type="0"/>
+<server server="sq-md5.htgwf.net" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="61.135.198.1" port="41205" type="1"/>
+<server server="sq-front5.htgwf.net" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="华泰期货_CTP" groupname="北京网通">
+<hq>
+<server server="61.135.198.1" port="41213" type="0"/>
+<server server="sq-md5.htgwf.net" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="61.135.198.1" port="41205" type="1"/>
+<server server="sq-front5.htgwf.net" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="华泰期货_CTP" groupname="深圳电信">
+<hq>
+<server server="121.15.173.75" port="41213" type="0"/>
+<server server="121.15.173.76" port="41213" type="0"/>
+<server server="sq-md1.htgwf.net" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="121.15.173.75" port="41205" type="1"/>
+<server server="121.15.173.76" port="41205" type="1"/>
+<server server="sq-front1.htgwf.net" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="华泰期货_CTP" groupname="深圳网通">
+<hq>
+<server server="58.251.16.203" port="41213" type="0"/>
+<server server="58.251.16.204" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="58.251.16.203" port="41205" type="1"/>
+<server server="58.251.16.204" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="8080" brokername="华泰期货二席_CTP" attribute="0" qsid="CTP">
+<group brokername="华泰期货二席_CTP" groupname="上海电信">
+<hq>
+<server server="180.168.212.238" port="41213" type="0"/>
+<server server="180.168.212.239" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.168.212.238" port="41205" type="1"/>
+<server server="180.168.212.239" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="华泰期货二席_CTP" groupname="上海网通">
+<hq>
+<server server="27.115.78.189" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="27.115.78.189" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="8080" brokername="华泰期货三席_CTP" attribute="0" qsid="CTP">
+<group brokername="华泰期货三席_CTP" groupname="上海电信">
+<hq>
+<server server="180.169.124.142" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.169.124.142" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="华泰期货三席_CTP" groupname="上海网通">
+<hq>
+<server server="180.169.124.142" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.169.124.142" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="8080" brokername="华泰期货四席_CTP" attribute="0" qsid="CTP">
+<group brokername="华泰期货四席_CTP" groupname="上海电信">
+<hq>
+<server server="180.169.124.129" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.169.124.129" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="华泰期货四席_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.101.121" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.101.121" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="8000" brokername="海通期货_CTP" attribute="0" qsid="CTP">
+<group brokername="海通期货_CTP" groupname="上海电信">
+<hq>
+<server server="180.168.212.75" port="41213" type="0"/>
+<server server="180.168.212.76" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.168.212.75" port="41205" type="1"/>
+<server server="180.168.212.76" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="海通期货_CTP" groupname="上海网通">
+<hq>
+<server server="27.115.78.155" port="41213" type="0"/>
+<server server="27.115.78.156" port="41219" type="0"/>
+</hq>
+<trade>
+<server server="27.115.78.155" port="41205" type="1"/>
+<server server="27.115.78.156" port="41207" type="1"/>
+</trade>
+</group>
+<group brokername="海通期货_CTP" groupname="南北互联电信">
+<hq>
+<server server="210.5.151.246" port="41219" type="0"/>
+<server server="210.5.151.247" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="210.5.151.246" port="41207" type="1"/>
+<server server="210.5.151.247" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="海通期货_CTP" groupname="南北互联网通">
+<hq>
+<server server="210.5.151.246" port="41219" type="0"/>
+<server server="210.5.151.247" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="210.5.151.246" port="41207" type="1"/>
+<server server="210.5.151.247" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="海通期货_CTP" groupname="郑州电信">
+<hq>
+<server server="171.8.2.26" port="41213" type="0"/>
+<server server="171.8.2.26" port="41313" type="0"/>
+<server server="171.8.2.26" port="41413" type="0"/>
+</hq>
+<trade>
+<server server="171.8.2.26" port="41205" type="1"/>
+<server server="171.8.2.26" port="41305" type="1"/>
+<server server="171.8.2.26" port="41405" type="1"/>
+</trade>
+</group>
+<group brokername="海通期货_CTP" groupname="郑州网通">
+<hq>
+<server server="218.28.130.102" port="41213" type="0"/>
+<server server="218.28.130.102" port="41313" type="0"/>
+<server server="218.28.130.102" port="41413" type="0"/>
+</hq>
+<trade>
+<server server="218.28.130.102" port="41205" type="1"/>
+<server server="218.28.130.102" port="41305" type="1"/>
+<server server="218.28.130.102" port="41405" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="8000" brokername="海通期货11席_CTP" attribute="0" qsid="CTP">
+<group brokername="海通期货11席_CTP" groupname="上海电信">
+<hq>
+<server server="180.168.212.70" port="41213" type="0"/>
+<server server="210.5.151.248" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.168.212.70" port="41205" type="1"/>
+<server server="210.5.151.248" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="海通期货11席_CTP" groupname="上海网通">
+<hq>
+<server server="210.5.151.248" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="210.5.151.248" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="8050" brokername="南华期货_CTP" attribute="0" qsid="CTP">
+<group brokername="南华期货_CTP" groupname="上海电信">
+<hq>
+<server server="180.169.30.170" port="41213" type="0"/>
+<server server="180.169.30.167" port="41213" type="0"/>
+<server server="202.103.151.17" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.169.30.170" port="41205" type="1"/>
+<server server="180.169.30.167" port="41205" type="1"/>
+<server server="202.103.151.17" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="南华期货_CTP" groupname="上海网通">
+<hq>
+<server server="27.115.56.234" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="27.115.56.234" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="9000" brokername="广发期货主席9000_CTP" attribute="0" qsid="CTP">
+<group brokername="广发期货主席9000_CTP" groupname="上海电信">
+<hq>
+<server server="116.228.246.81" port="41213" type="0"/>
+<server server="116.228.246.82" port="41213" type="0"/>
+<server server="116.228.246.83" port="41213" type="0"/>
+<server server="116.228.246.84" port="41213" type="0"/>
+<server server="116.228.246.88" port="41213" type="0"/>
+<server server="116.228.246.94" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="116.228.246.81" port="41205" type="1"/>
+<server server="116.228.246.82" port="41205" type="1"/>
+<server server="116.228.246.83" port="41205" type="1"/>
+<server server="116.228.246.84" port="41205" type="1"/>
+<server server="116.228.246.88" port="41205" type="1"/>
+<server server="116.228.246.94" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="广发期货主席9000_CTP" groupname="上海网通">
+<hq>
+<server server="27.115.57.128" port="41213" type="0"/>
+<server server="27.115.57.129" port="41213" type="0"/>
+<server server="27.115.57.130" port="41213" type="0"/>
+<server server="27.115.57.131" port="41213" type="0"/>
+<server server="27.115.57.132" port="41213" type="0"/>
+<server server="27.115.57.133" port="41213" type="0"/>
+<server server="120.204.249.116" port="41213" type="0"/>
+<server server="120.204.249.119" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="27.115.57.128" port="41205" type="1"/>
+<server server="27.115.57.129" port="41205" type="1"/>
+<server server="27.115.57.130" port="41205" type="1"/>
+<server server="27.115.57.131" port="41205" type="1"/>
+<server server="27.115.57.132" port="41205" type="1"/>
+<server server="27.115.57.133" port="41205" type="1"/>
+<server server="120.204.249.116" port="41205" type="1"/>
+<server server="120.204.249.119" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="广发期货主席9000_CTP" groupname="广州电信">
+<hq>
+<server server="61.140.230.188" port="41213" type="0"/>
+<server server="58.62.1.248" port="41213" type="0"/>
+<server server="61.140.230.178" port="41213" type="0"/>
+<server server="58.62.1.246" port="41213" type="0"/>
+<server server="61.140.230.179" port="41213" type="0"/>
+<server server="58.62.1.247" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="61.140.230.188" port="41205" type="1"/>
+<server server="58.62.1.248" port="41205" type="1"/>
+<server server="61.140.230.178" port="41205" type="1"/>
+<server server="58.62.1.246" port="41205" type="1"/>
+<server server="61.140.230.179" port="41205" type="1"/>
+<server server="58.62.1.247" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="广发期货主席9000_CTP" groupname="广州网通">
+<hq>
+<server server="58.248.23.178" port="41213" type="0"/>
+<server server="210.21.52.218" port="41213" type="0"/>
+<server server="58.248.23.176" port="41213" type="0"/>
+<server server="58.248.23.177" port="41213" type="0"/>
+<server server="210.21.52.222" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="58.248.23.178" port="41205" type="1"/>
+<server server="210.21.52.218" port="41205" type="1"/>
+<server server="58.248.23.176" port="41205" type="1"/>
+<server server="58.248.23.177" port="41205" type="1"/>
+<server server="210.21.52.222" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="广发期货主席9000_CTP" groupname="北京电信">
+<hq>
+<server server="116.228.246.81" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="116.228.246.81" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="广发期货主席9000_CTP" groupname="北京网通">
+<hq>
+<server server="210.21.52.221" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="210.21.52.221" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="广发期货主席9000_CTP" groupname="盘后查询电信">
+<hq>
+<server server="58.62.1.249" port="31213" type="0"/>
+<server server="116.228.246.80" port="31213" type="0"/>
+</hq>
+<trade>
+<server server="58.62.1.249" port="31205" type="1"/>
+<server server="116.228.246.80" port="31205" type="1"/>
+</trade>
+</group>
+<group brokername="广发期货主席9000_CTP" groupname="盘后查询网通">
+<hq>
+<server server="210.21.52.219" port="31213" type="0"/>
+<server server="27.115.57.132" port="31213" type="0"/>
+</hq>
+<trade>
+<server server="210.21.52.219" port="31205" type="1"/>
+<server server="27.115.57.132" port="31205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="9000" brokername="广发期货二席2000_CTP" attribute="0" qsid="CTP">
+<group brokername="广发期货二席2000_CTP" groupname="上海电信">
+<hq>
+<server server="116.228.246.92" port="55557" type="0"/>
+</hq>
+<trade>
+<server server="116.228.246.92" port="55556" type="1"/>
+</trade>
+</group>
+<group brokername="广发期货二席2000_CTP" groupname="上海网通">
+<hq>
+<server server="27.115.57.134" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="27.115.57.134" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="9000" brokername="广发期货二席2001_CTP" attribute="0" qsid="CTP">
+<group brokername="广发期货二席2001_CTP" groupname="上海电信">
+<hq>
+<server server="116.228.246.90" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="116.228.246.90" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="广发期货二席2001_CTP" groupname="上海网通">
+<hq>
+<server server="27.115.57.134" port="20013" type="0"/>
+</hq>
+<trade>
+<server server="27.115.57.134" port="20015" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="9000" brokername="广发期货二席2002_CTP" attribute="0" qsid="CTP">
+<group brokername="广发期货二席2002_CTP" groupname="上海电信">
+<hq>
+<server server="116.228.246.92" port="55559" type="0"/>
+</hq>
+<trade>
+<server server="116.228.246.92" port="55558" type="1"/>
+</trade>
+</group>
+<group brokername="广发期货二席2002_CTP" groupname="上海网通"/>
+</broker>
+<broker brokerid="9000" brokername="广发期货二席2003_CTP" attribute="0" qsid="CTP">
+<group brokername="广发期货二席2003_CTP" groupname="上海电信">
+<hq>
+<server server="116.228.246.92" port="55562" type="0"/>
+</hq>
+<trade>
+<server server="116.228.246.92" port="55561" type="1"/>
+</trade>
+</group>
+<group brokername="广发期货二席2003_CTP" groupname="上海网通">
+<hq>
+<server server="27.115.57.134" port="55562" type="0"/>
+</hq>
+<trade>
+<server server="27.115.57.134" port="55561" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="9000" brokername="广发期货二席8000_CTP" attribute="0" qsid="CTP">
+<group brokername="广发期货二席8000_CTP" groupname="上海电信">
+<hq>
+<server server="116.228.246.89" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="116.228.246.89" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="广发期货二席8000_CTP" groupname="上海网通">
+<hq>
+<server server="120.204.249.117" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="120.204.249.117" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="6090" brokername="新湖期货主席_CTP" attribute="0" qsid="CTP">
+<group brokername="新湖期货主席_CTP" groupname="上海电信">
+<hq>
+<server server="116.228.171.216" port="41213" type="0"/>
+<server server="116.228.171.217" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="116.228.171.216" port="41205" type="1"/>
+<server server="116.228.171.217" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="新湖期货主席_CTP" groupname="上海网通">
+<hq>
+<server server="210.13.70.235" port="41213" type="0"/>
+<server server="210.13.70.236" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="210.13.70.235" port="41205" type="1"/>
+<server server="210.13.70.236" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="新湖期货主席_CTP" groupname="长沙电信">
+<hq>
+<server server="124.232.148.43" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="124.232.148.43" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="6090" brokername="新湖期货二席_CTP" attribute="0" qsid="CTP">
+<group brokername="新湖期货二席_CTP" groupname="上海电信">
+<hq>
+<server server="116.228.171.213" port="41213" type="0"/>
+<server server="116.228.171.214" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="116.228.171.213" port="41205" type="1"/>
+<server server="116.228.171.214" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="新湖期货二席_CTP" groupname="上海网通">
+<hq>
+<server server="210.13.70.237" port="41213" type="0"/>
+<server server="210.13.70.238" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="210.13.70.237" port="41205" type="1"/>
+<server server="210.13.70.238" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="6090" brokername="新湖期货期权_CTP" attribute="0" qsid="CTP">
+<group brokername="新湖期货期权_CTP" groupname="上海电信">
+<hq>
+<server server="116.228.171.216" port="61213" type="0"/>
+</hq>
+<trade>
+<server server="116.228.171.216" port="61205" type="1"/>
+</trade>
+</group>
+<group brokername="新湖期货期权_CTP" groupname="上海网通">
+<hq>
+<server server="116.228.171.216" port="61213" type="0"/>
+</hq>
+<trade>
+<server server="116.228.171.216" port="61205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="8060" brokername="招商期货_CTP" attribute="0" qsid="CTP">
+<group brokername="招商期货_CTP" groupname="上海电信">
+<hq>
+<server server="180.166.65.119" port="41213" type="0"/>
+<server server="180.166.65.120" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.166.65.119" port="41205" type="1"/>
+<server server="180.166.65.120" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="招商期货_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.80.229" port="41213" type="0"/>
+<server server="140.206.80.230" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.80.229" port="41205" type="1"/>
+<server server="140.206.80.230" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="招商期货_CTP" groupname="深圳电信">
+<hq>
+<server server="183.62.98.29" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="183.62.98.29" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="招商期货_CTP" groupname="深圳网通">
+<hq>
+<server server="210.21.232.125" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="210.21.232.125" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="8090" brokername="中国国际_CTP" attribute="0" qsid="CTP">
+<group brokername="中国国际_CTP" groupname="上海电信">
+<hq>
+<server server="cifco-md1.financial-trading-platform.com" port="41213" type="0"/>
+<server server="cifco-md3.financial-trading-platform.com" port="41213" type="0"/>
+<server server="cifco-md4.financial-trading-platform.com" port="41213" type="0"/>
+<server server="cifco-md5.financial-trading-platform.com" port="41213" type="0"/>
+<server server="cifco-md7.financial-trading-platform.com" port="41213" type="0"/>
+<server server="cifco-md8.financial-trading-platform.com" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="cifco-front1.financial-trading-platform.com" port="41205" type="1"/>
+<server server="cifco-front3.financial-trading-platform.com" port="41205" type="1"/>
+<server server="cifco-front4.financial-trading-platform.com" port="41205" type="1"/>
+<server server="cifco-front5.financial-trading-platform.com" port="41205" type="1"/>
+<server server="cifco-front7.financial-trading-platform.com" port="41205" type="1"/>
+<server server="cifco-front8.financial-trading-platform.com" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="中国国际_CTP" groupname="上海网通">
+<hq>
+<server server="cifco-md2.financial-trading-platform.com" port="41213" type="0"/>
+<server server="cifco-md6.financial-trading-platform.com" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="cifco-front2.financial-trading-platform.com" port="41205" type="1"/>
+<server server="cifco-front6.financial-trading-platform.com" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="中国国际_CTP" groupname="北京电信">
+<hq>
+<server server="218.241.197.55" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="218.241.197.55" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="中国国际_CTP" groupname="北京网通">
+<hq>
+<server server="123.127.45.138" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="123.127.45.138" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="中国国际_CTP" groupname="深圳电信">
+<hq>
+<server server="61.144.241.113" port="41213" type="0"/>
+<server server="61.144.241.114" port="41213" type="0"/>
+<server server="61.144.241.115" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="61.144.241.113" port="41205" type="1"/>
+<server server="61.144.241.114" port="41205" type="1"/>
+<server server="61.144.241.115" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="中国国际_CTP" groupname="深圳网通">
+<hq>
+<server server="210.22.25.180" port="41213" type="0"/>
+<server server="210.22.25.184" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="210.22.25.180" port="41205" type="1"/>
+<server server="210.22.25.184" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="7090" brokername="国泰君安_CTP" attribute="0" qsid="CTP">
+<group brokername="国泰君安_CTP" groupname="上海电信">
+<hq>
+<server server="180.169.75.19" port="41213" type="0"/>
+<server server="180.169.75.21" port="41213" type="0"/>
+<server server="180.166.176.214" port="41213" type="0"/>
+<server server="180.166.176.216" port="41213" type="0"/>
+<server server="180.169.75.17" port="41213" type="0"/>
+<server server="180.169.75.23" port="41213" type="0"/>
+<server server="180.166.176.210" port="41213" type="0"/>
+<server server="180.166.176.212" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.169.75.19" port="41205" type="1"/>
+<server server="180.169.75.21" port="41205" type="1"/>
+<server server="180.166.176.214" port="41205" type="1"/>
+<server server="180.166.176.216" port="41205" type="1"/>
+<server server="180.169.75.17" port="41205" type="1"/>
+<server server="180.169.75.23" port="41205" type="1"/>
+<server server="180.166.176.210" port="41205" type="1"/>
+<server server="180.166.176.212" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="国泰君安_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.102.69" port="41213" type="0"/>
+<server server="140.206.102.67" port="41213" type="0"/>
+<server server="140.206.103.119" port="41213" type="0"/>
+<server server="140.206.103.121" port="41213" type="0"/>
+<server server="140.206.102.65" port="41213" type="0"/>
+<server server="140.206.103.117" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.102.69" port="41205" type="1"/>
+<server server="140.206.102.67" port="41205" type="1"/>
+<server server="140.206.103.119" port="41205" type="1"/>
+<server server="140.206.103.121" port="41205" type="1"/>
+<server server="140.206.102.65" port="41205" type="1"/>
+<server server="140.206.103.117" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="国泰君安_CTP" groupname="南方北方网通">
+<hq>
+<server server="202.108.254.178" port="41213" type="0"/>
+<server server="202.106.156.200" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="202.108.254.178" port="41205" type="1"/>
+<server server="202.106.156.200" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="国泰君安_CTP" groupname="盘后查询电信">
+<hq>
+<server server="180.166.176.219" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.166.176.219" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="国泰君安_CTP" groupname="盘后查询网通">
+<hq>
+<server server="140.206.103.113" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.103.113" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0034" brokername="方正中期新二席_CTP" attribute="0" qsid="CTP">
+<group brokername="方正中期新二席_CTP" groupname="上海电信">
+<hq>
+<server server="180.166.0.225" port="38213" type="0"/>
+<server server="180.166.0.226" port="38213" type="0"/>
+</hq>
+<trade>
+<server server="180.166.0.225" port="38205" type="1"/>
+<server server="180.166.0.226" port="38205" type="1"/>
+</trade>
+</group>
+<group brokername="方正中期新二席_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.102.129" port="38213" type="0"/>
+<server server="140.206.102.130" port="38213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.102.129" port="38205" type="1"/>
+<server server="140.206.102.130" port="38205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="4200" brokername="兴证期货主席_CTP" attribute="0" qsid="CTP">
+<group brokername="兴证期货主席_CTP" groupname="上海电信">
+<hq>
+<server server="180.166.11.33" port="41213" type="0"/>
+<server server="180.168.173.2" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.166.11.33" port="41205" type="1"/>
+<server server="180.168.173.2" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="兴证期货主席_CTP" groupname="上海网通">
+<hq>
+<server server="27.115.78.102" port="41213" type="0"/>
+<server server="27.115.78.100" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="27.115.78.102" port="41205" type="1"/>
+<server server="27.115.78.100" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="兴证期货主席_CTP" groupname="福州电信">
+<hq>
+<server server="120.35.26.181" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="120.35.26.181" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="兴证期货主席_CTP" groupname="福州网通">
+<hq>
+<server server="218.106.151.22" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="218.106.151.22" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="兴证期货主席_CTP" groupname="大连电信">
+<hq>
+<server server="59.46.178.26" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="59.46.178.26" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="兴证期货主席_CTP" groupname="大连网通">
+<hq>
+<server server="124.93.224.26" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="124.93.224.26" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="4200" brokername="兴证期货二席_CTP" attribute="0" qsid="CTP">
+<group brokername="兴证期货二席_CTP" groupname="上海电信">
+<hq>
+<server server="180.168.173.2" port="51213" type="0"/>
+<server server="180.166.11.33" port="51213" type="0"/>
+</hq>
+<trade>
+<server server="180.168.173.2" port="51205" type="1"/>
+<server server="180.166.11.33" port="51205" type="1"/>
+</trade>
+</group>
+<group brokername="兴证期货二席_CTP" groupname="上海网通">
+<hq>
+<server server="27.115.78.100" port="51213" type="0"/>
+<server server="27.115.78.102" port="51213" type="0"/>
+</hq>
+<trade>
+<server server="27.115.78.100" port="51205" type="1"/>
+<server server="27.115.78.102" port="51205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="3040" brokername="东证期货二席_CTP" attribute="0" qsid="CTP">
+<group brokername="东证期货二席_CTP" groupname="上海电信">
+<hq>
+<server server="180.169.85.211" port="41213" type="0"/>
+<server server="180.169.85.215" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.169.85.211" port="41205" type="1"/>
+<server server="180.169.85.215" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="东证期货二席_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.101.12" port="41213" type="0"/>
+<server server="140.206.101.13" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.101.12" port="41205" type="1"/>
+<server server="140.206.101.13" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="3040" brokername="东证期货主席_CTP" attribute="0" qsid="CTP">
+<group brokername="东证期货主席_CTP" groupname="上海电信">
+<hq>
+<server server="180.169.85.204" port="41213" type="0"/>
+<server server="180.166.103.38" port="41213" type="0"/>
+<server server="222.73.209.22" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.169.85.204" port="41205" type="1"/>
+<server server="180.166.103.38" port="41205" type="1"/>
+<server server="222.73.209.22" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="东证期货主席_CTP" groupname="上海网通">
+<hq>
+<server server="210.13.82.14" port="41213" type="0"/>
+<server server="218.60.13.142" port="41213" type="0"/>
+<server server="61.135.164.197" port="41213" type="0"/>
+<server server="140.206.101.26" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="210.13.82.14" port="41205" type="1"/>
+<server server="218.60.13.142" port="41205" type="1"/>
+<server server="61.135.164.197" port="41205" type="1"/>
+<server server="140.206.101.26" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="4040" brokername="银河期货主席_CTP" attribute="0" qsid="CTP">
+<group brokername="银河期货主席_CTP" groupname="上海电信">
+<hq>
+<server server="101.95.8.178" port="51213" type="0"/>
+<server server="101.95.132.106" port="52213" type="0"/>
+<server server="101.95.8.178" port="53213" type="0"/>
+<server server="61.129.87.74" port="52213" type="0"/>
+</hq>
+<trade>
+<server server="101.95.8.178" port="51205" type="1"/>
+<server server="101.95.132.106" port="52205" type="1"/>
+<server server="101.95.8.178" port="53205" type="1"/>
+<server server="61.129.87.74" port="52205" type="1"/>
+</trade>
+</group>
+<group brokername="银河期货主席_CTP" groupname="上海网通">
+<hq>
+<server server="58.247.171.146" port="51213" type="0"/>
+<server server="27.115.78.34" port="52213" type="0"/>
+<server server="58.247.171.146" port="53213" type="0"/>
+</hq>
+<trade>
+<server server="58.247.171.146" port="51205" type="1"/>
+<server server="27.115.78.34" port="52205" type="1"/>
+<server server="58.247.171.146" port="53205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="4040" brokername="银河期货二席_CTP" attribute="0" qsid="CTP">
+<group brokername="银河期货二席_CTP" groupname="上海电信">
+<hq>
+<server server="101.95.132.106" port="41213" type="0"/>
+<server server="101.95.8.178" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="101.95.132.106" port="41205" type="1"/>
+<server server="101.95.8.178" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="银河期货二席_CTP" groupname="上海网通">
+<hq>
+<server server="27.115.78.39" port="41213" type="0"/>
+<server server="58.247.171.147" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="27.115.78.39" port="41205" type="1"/>
+<server server="58.247.171.147" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="66666" brokername="中信主席_CTP" attribute="0" qsid="CTP">
+<group brokername="中信主席_CTP" groupname="上海电信">
+<hq>
+<server server="ctp1-md1.citicsf.com" port="41213" type="0"/>
+<server server="ctp1-md3.citicsf.com" port="41213" type="0"/>
+<server server="ctp1-md13.citicsf.com" port="41213" type="0"/>
+<server server="180.169.101.177" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="ctp1-front1.citicsf.com" port="41205" type="1"/>
+<server server="ctp1-front3.citicsf.com" port="41205" type="1"/>
+<server server="ctp1-front13.citicsf.com" port="41205" type="1"/>
+<server server="180.169.101.177" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="中信主席_CTP" groupname="上海网通">
+<hq>
+<server server="ctp1-md2.citicsf.com" port="41213" type="0"/>
+<server server="ctp1-md4.citicsf.com" port="41213" type="0"/>
+<server server="27.115.78.193" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="ctp1-front2.citicsf.com" port="41205" type="1"/>
+<server server="ctp1-front4.citicsf.com" port="41205" type="1"/>
+<server server="27.115.78.193" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="中信主席_CTP" groupname="深圳电信">
+<hq>
+<server server="ctp1-md11.citicsf.com" port="41213" type="0"/>
+<server server="ctp1-md12.citicsf.com" port="41213" type="0"/>
+<server server="121.15.139.123" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="ctp1-front11.citicsf.com" port="41205" type="1"/>
+<server server="ctp1-front12.citicsf.com" port="41205" type="1"/>
+<server server="121.15.139.123" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="中信主席_CTP" groupname="深圳网通">
+<hq>
+<server server="ctp1-md9.citicsf.com" port="41213" type="0"/>
+<server server="ctp1-md10.citicsf.com" port="41213" type="0"/>
+<server server="123.124.247.8" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="ctp1-front9.citicsf.com" port="41205" type="1"/>
+<server server="ctp1-front10.citicsf.com" port="41205" type="1"/>
+<server server="123.124.247.8" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="中信主席_CTP" groupname="北京电信">
+<hq>
+<server server="ctp1-md11.citicsf.com" port="41213" type="0"/>
+<server server="ctp1-md12.citicsf.com" port="41213" type="0"/>
+<server server="121.15.139.123" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="ctp1-front11.citicsf.com" port="41205" type="1"/>
+<server server="ctp1-front12.citicsf.com" port="41205" type="1"/>
+<server server="121.15.139.123" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="中信主席_CTP" groupname="北京网通">
+<hq>
+<server server="ctp1-md9.citicsf.com" port="41213" type="0"/>
+<server server="ctp1-md10.citicsf.com" port="41213" type="0"/>
+<server server="123.124.247.8" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="ctp1-front9.citicsf.com" port="41205" type="1"/>
+<server server="ctp1-front10.citicsf.com" port="41205" type="1"/>
+<server server="123.124.247.8" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="中信主席_CTP" groupname="杭州电信">
+<hq>
+<server server="ctp1-md5.citicsf.com" port="41213" type="0"/>
+<server server="ctp1-md7.citicsf.com" port="41213" type="0"/>
+<server server="115.238.108.184" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="ctp1-front5.citicsf.com" port="41205" type="1"/>
+<server server="ctp1-front7.citicsf.com" port="41205" type="1"/>
+<server server="115.238.108.184" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="中信主席_CTP" groupname="杭州网通">
+<hq>
+<server server="ctp1-md6.citicsf.com" port="41213" type="0"/>
+<server server="ctp1-md8.citicsf.com" port="41213" type="0"/>
+<server server="221.12.30.12" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="ctp1-front6.citicsf.com" port="41205" type="1"/>
+<server server="ctp1-front8.citicsf.com" port="41205" type="1"/>
+<server server="221.12.30.12" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="66666" brokername="中信二席_CTP" attribute="0" qsid="CTP">
+<group brokername="中信二席_CTP" groupname="上海电信">
+<hq>
+<server server="180.169.101.180" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.169.101.180" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="中信二席_CTP" groupname="上海网通">
+<hq>
+<server server="27.115.78.196" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="27.115.78.196" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="4080" brokername="渤海期货主席_CTP" attribute="0" qsid="CTP">
+<group brokername="渤海期货主席_CTP" groupname="上海电信">
+<hq>
+<server server="116.228.31.198" port="41213" type="0"/>
+<server server="180.169.116.118" port="41213" type="0"/>
+<server server="116.228.31.199" port="41213" type="0"/>
+<server server="180.169.116.119" port="41213" type="0"/>
+<server server="222.168.70.115" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="116.228.31.198" port="41205" type="1"/>
+<server server="180.169.116.118" port="41205" type="1"/>
+<server server="116.228.31.199" port="41205" type="1"/>
+<server server="180.169.116.119" port="41205" type="1"/>
+<server server="222.168.70.115" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="渤海期货主席_CTP" groupname="上海网通">
+<hq>
+<server server="119.51.92.131" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="119.51.92.131" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="4080" brokername="渤海期货二席_CTP" attribute="0" qsid="CTP">
+<group brokername="渤海期货二席_CTP" groupname="上海电信">
+<hq>
+<server server="ctp-sh-dx-01.bhfcc.com" port="41213" type="0"/>
+<server server="ctp-sh-dx-02.bhfcc.com" port="41213" type="0"/>
+<server server="ctp-sh-dx-03.bhfcc.com" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="ctp-sh-dx-01.bhfcc.com" port="41205" type="1"/>
+<server server="ctp-sh-dx-02.bhfcc.com" port="41205" type="1"/>
+<server server="ctp-sh-dx-03.bhfcc.com" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="渤海期货二席_CTP" groupname="上海网通">
+<hq>
+<server server="ctp-sh-lt-01.bhfcc.com" port="41213" type="0"/>
+<server server="ctp-sh-lt-02.bhfcc.com" port="41213" type="0"/>
+<server server="ctp-sh-lt-03.bhfcc.com" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="ctp-sh-lt-01.bhfcc.com" port="41205" type="1"/>
+<server server="ctp-sh-lt-02.bhfcc.com" port="41205" type="1"/>
+<server server="ctp-sh-lt-03.bhfcc.com" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="渤海期货二席_CTP" groupname="长春电信">
+<hq>
+<server server="ctp-cc-dx-01.bhfcc.com" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="ctp-cc-dx-01.bhfcc.com" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="渤海期货二席_CTP" groupname="长春网通">
+<hq>
+<server server="ctp-cc-lt-01.bhfcc.com" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="ctp-cc-lt-01.bhfcc.com" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="2046" brokername="中航期货_CTP" attribute="0" qsid="CTP">
+<group brokername="中航期货_CTP" groupname="上海电信">
+<hq>
+<server server="222.66.199.241" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="222.66.199.241" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="中航期货_CTP" groupname="上海网通">
+<hq>
+<server server="112.64.129.38" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="112.64.129.38" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="8030" brokername="国信期货_CTP" attribute="0" qsid="CTP">
+<group brokername="国信期货_CTP" groupname="上海电信">
+<hq>
+<server server="180.166.37.129" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.166.37.129" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="国信期货_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.101.201" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.101.201" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="6000" brokername="光大期货主席_CTP" attribute="0" qsid="CTP">
+<group brokername="光大期货主席_CTP" groupname="上海电信">
+<hq>
+<server server="180.166.132.66" port="41213" type="0"/>
+<server server="180.166.132.67" port="41213" type="0"/>
+<server server="211.144.218.93" port="41213" type="0"/>
+<server server="211.144.218.94" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.166.132.66" port="41205" type="1"/>
+<server server="180.166.132.67" port="41205" type="1"/>
+<server server="211.144.218.93" port="41205" type="1"/>
+<server server="211.144.218.94" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="光大期货主席_CTP" groupname="上海网通">
+<hq>
+<server server="112.64.143.36" port="41213" type="0"/>
+<server server="112.64.143.37" port="41213" type="0"/>
+<server server="220.248.57.120" port="41213" type="0"/>
+<server server="220.248.57.121" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="112.64.143.36" port="41205" type="1"/>
+<server server="112.64.143.37" port="41205" type="1"/>
+<server server="220.248.57.120" port="41205" type="1"/>
+<server server="220.248.57.121" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="6000" brokername="光大期货二席_CTP" attribute="0" qsid="CTP">
+<group brokername="光大期货二席_CTP" groupname="上海电信">
+<hq>
+<server server="gdqh-md1.financial-trading-platform.com" port="41213" type="0"/>
+<server server="gdqh-md3.financial-trading-platform.com" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="gdqh-front1.financial-trading-platform.com" port="41205" type="1"/>
+<server server="gdqh-front3.financial-trading-platform.com" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="光大期货二席_CTP" groupname="上海网通">
+<hq>
+<server server="gdqh-md2.financial-trading-platform.com" port="41213" type="0"/>
+<server server="gdqh-md4.financial-trading-platform.com" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="gdqh-front2.financial-trading-platform.com" port="41205" type="1"/>
+<server server="gdqh-front4.financial-trading-platform.com" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="6040" brokername="东方期货_CTP" attribute="0" qsid="CTP">
+<group brokername="东方期货_CTP" groupname="上海电信">
+<hq>
+<server server="Fens.shoriental.net" port="15000" type="0"/>
+</hq>
+<trade>
+<server server="Fens.shoriental.cn" port="14000" type="1"/>
+</trade>
+</group>
+<group brokername="东方期货_CTP" groupname="上海网通">
+<hq>
+<server server="Fens.shoriental.cn" port="15000" type="0"/>
+</hq>
+<trade>
+<server server="Fens.shoriental.cn" port="14000" type="1"/>
+</trade>
+</group>
+<group brokername="东方期货_CTP" groupname="电信备用">
+<hq>
+<server server="101.230.3.50" port="15000" type="0"/>
+</hq>
+<trade>
+<server server="101.230.3.50" port="14000" type="1"/>
+</trade>
+</group>
+<group brokername="东方期货_CTP" groupname="网通备用">
+<hq>
+<server server="112.65.105.118" port="15000" type="0"/>
+</hq>
+<trade>
+<server server="112.65.105.118" port="14000" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="3010" brokername="恒泰期货_CTP" attribute="0" qsid="CTP">
+<group brokername="恒泰期货_CTP" groupname="上海电信">
+<hq>
+<server server="180.169.30.209" port="41213" type="0"/>
+<server server="180.169.30.211" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.169.30.209" port="41205" type="1"/>
+<server server="180.169.30.211" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="恒泰期货_CTP" groupname="上海网通">
+<hq>
+<server server="27.115.57.172" port="41213" type="0"/>
+<server server="27.115.57.174" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="27.115.57.172" port="41205" type="1"/>
+<server server="27.115.57.174" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="4020" brokername="天鸿期货_CTP" attribute="0" qsid="CTP">
+<group brokername="天鸿期货_CTP" groupname="上海电信">
+<hq>
+<server server="180.166.12.241" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.166.12.241" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="天鸿期货_CTP" groupname="上海网通">
+<hq>
+<server server="58.246.138.33" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="58.246.138.33" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="7050" brokername="中投期货_CTP" attribute="0" qsid="CTP">
+<group brokername="中投期货_CTP" groupname="上海电信">
+<hq>
+<server server="ztqh-md1.china-invf.com" port="41213" type="0"/>
+<server server="180.166.45.50" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="ztqh-front1.china-invf.com" port="41205" type="1"/>
+<server server="180.166.45.50" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="中投期货_CTP" groupname="上海网通">
+<hq>
+<server server="ztqh-front2.china-invf.com" port="41213" type="0"/>
+<server server="27.115.57.180" port="41213" type="0"/>
+<server server="114.255.13.180" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="ztqh-front2.china-invf.com" port="41205" type="1"/>
+<server server="27.115.57.180" port="41205" type="1"/>
+<server server="114.255.13.180" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="6020" brokername="华安期货_CTP" attribute="0" qsid="CTP">
+<group brokername="华安期货_CTP" groupname="上海电信">
+<hq>
+<server server="180.166.37.178" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.166.37.178" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="华安期货_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.101.218" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.101.218" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="4090" brokername="东兴期货_CTP" attribute="0" qsid="CTP">
+<group brokername="东兴期货_CTP" groupname="上海电信">
+<hq>
+<server server="116.228.171.155" port="41213" type="0"/>
+<server server="60.247.45.122" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="116.228.171.155" port="41205" type="1"/>
+<server server="60.247.45.122" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="东兴期货_CTP" groupname="上海网通">
+<hq>
+<server server="27.115.57.157" port="41213" type="0"/>
+<server server="123.125.28.85" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="27.115.57.157" port="41205" type="1"/>
+<server server="123.125.28.85" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="5050" brokername="华龙期货_CTP" attribute="0" qsid="CTP">
+<group brokername="华龙期货_CTP" groupname="上海电信">
+<hq>
+<server server="180.166.45.66" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.166.45.66" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="华龙期货_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.102.227" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.102.227" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="5070" brokername="广州期货_CTP" attribute="0" qsid="CTP">
+<group brokername="广州期货_CTP" groupname="上海电信">
+<hq>
+<server server="180.166.80.97" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.166.80.97" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="广州期货_CTP" groupname="上海网通">
+<hq>
+<server server="112.64.129.202" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="112.64.129.202" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="5090" brokername="安信期货_CTP" attribute="0" qsid="CTP">
+<group brokername="安信期货_CTP" groupname="上海电信">
+<hq>
+<server server="219.143.242.147" port="41213" type="0"/>
+<server server="180.166.75.225" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="219.143.242.147" port="41205" type="1"/>
+<server server="180.166.75.225" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="安信期货_CTP" groupname="上海网通">
+<hq>
+<server server="123.127.201.162" port="41213" type="0"/>
+<server server="27.115.57.57" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="123.127.201.162" port="41205" type="1"/>
+<server server="27.115.57.57" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="5060" brokername="一德期货_CTP" attribute="0" qsid="CTP">
+<group brokername="一德期货_CTP" groupname="上海电信">
+<hq>
+<server server="md1.ctp.ydqh.cn" port="41213" type="0"/>
+<server server="md3.ctp.ydqh.cn" port="41213" type="0"/>
+<server server="md5.ctp.ydqh.cn" port="41213" type="0"/>
+<server server="md7.ctp.ydqh.cn" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="front1.ctp.ydqh.cn" port="41205" type="1"/>
+<server server="front3.ctp.ydqh.cn" port="41205" type="1"/>
+<server server="front5.ctp.ydqh.cn" port="41205" type="1"/>
+<server server="front7.ctp.ydqh.cn" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="一德期货_CTP" groupname="上海网通">
+<hq>
+<server server="md2.ctp.ydqh.cn" port="41213" type="0"/>
+<server server="md4.ctp.ydqh.cn" port="41213" type="0"/>
+<server server="md6.ctp.ydqh.cn" port="41213" type="0"/>
+<server server="md8.ctp.ydqh.cn" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="front2.ctp.ydqh.cn" port="41205" type="1"/>
+<server server="front4.ctp.ydqh.cn" port="41205" type="1"/>
+<server server="front6.ctp.ydqh.cn" port="41205" type="1"/>
+<server server="front8.ctp.ydqh.cn" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="88888" brokername="申万主席_CTP" attribute="0" qsid="CTP">
+<group brokername="申万主席_CTP" groupname="上海电信">
+<hq>
+<server server="180.168.212.51" port="41213" type="0"/>
+<server server="180.168.212.52" port="41213" type="0"/>
+<server server="180.168.212.55" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.168.212.51" port="41205" type="1"/>
+<server server="180.168.212.52" port="41205" type="1"/>
+<server server="180.168.212.53" port="41205" type="1"/>
+<server server="180.168.212.54" port="41205" type="1"/>
+<server server="180.168.212.55" port="41205" type="1"/>
+<server server="222.73.226.106" port="41205" type="1"/>
+<server server="222.73.226.106" port="41207" type="1"/>
+<server server="222.73.226.106" port="41209" type="1"/>
+<server server="222.73.226.106" port="41211" type="1"/>
+</trade>
+</group>
+<group brokername="申万主席_CTP" groupname="上海网通">
+<hq>
+<server server="27.115.78.211" port="41213" type="0"/>
+<server server="27.115.78.213" port="41213" type="0"/>
+<server server="27.115.78.215" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="27.115.78.211" port="41205" type="1"/>
+<server server="27.115.78.212" port="41205" type="1"/>
+<server server="27.115.78.213" port="41205" type="1"/>
+<server server="27.115.78.214" port="41205" type="1"/>
+<server server="27.115.78.215" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+</broker>
+<broker brokerid="88888" brokername="申万三席_CTP" attribute="0" qsid="CTP">
+<group brokername="申万三席_CTP" groupname="上海电信">
+<hq>
+<server server="180.168.212.56" port="41213" type="0"/>
+<server server="180.168.212.57" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.168.212.56" port="41205" type="1"/>
+<server server="180.168.212.57" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="申万三席_CTP" groupname="上海网通">
+<hq>
+<server server="27.115.78.216" port="41213" type="0"/>
+<server server="27.115.78.217" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="27.115.78.216" port="41205" type="1"/>
+<server server="27.115.78.217" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="2001" brokername="申万期货个股期权_CTP" attribute="0" qsid="CTP">
+<group brokername="申万期货个股期权_CTP" groupname="上海电信">
+<hq>
+<server server="222.66.235.70" port="29213" type="0"/>
+</hq>
+<trade>
+<server server="222.66.235.70" port="29205" type="1"/>
+</trade>
+</group>
+<group brokername="申万期货个股期权_CTP" groupname="上海网通">
+<hq>
+<server server="222.66.235.70" port="29213" type="0"/>
+</hq>
+<trade>
+<server server="222.66.235.70" port="29205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="1010" brokername="华融期货_CTP" attribute="0" qsid="CTP">
+<group brokername="华融期货_CTP" groupname="上海电信">
+<hq>
+<server server="221.133.225.249" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="221.133.225.249" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="华融期货_CTP" groupname="上海网通">
+<hq>
+<server server="116.66.38.39" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="116.66.38.39" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="7030" brokername="美尔雅期货_CTP" attribute="0" qsid="CTP">
+<group brokername="美尔雅期货_CTP" groupname="上海电信">
+<hq>
+<server server="sh-front1.168qh.com" port="41213" type="0"/>
+<server server="sh-front2.168qh.com" port="41213" type="0"/>
+<server server="sh-front4.168qh.com" port="41213" type="0"/>
+<server server="sh-front1.mfc.com.cn" port="41213" type="0"/>
+<server server="sh-front2.mfc.com.cn" port="41213" type="0"/>
+<server server="sh-front4.mfc.com.cn" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="sh-front1.168qh.com" port="41205" type="1"/>
+<server server="sh-front2.168qh.com" port="41205" type="1"/>
+<server server="sh-front4.168qh.com" port="41205" type="1"/>
+<server server="sh-front1.mfc.com.cn" port="41205" type="1"/>
+<server server="sh-front2.mfc.com.cn" port="41205" type="1"/>
+<server server="sh-front4.mfc.com.cn" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="美尔雅期货_CTP" groupname="上海网通">
+<hq>
+<server server="sh-front11.168qh.com" port="41213" type="0"/>
+<server server="sh-front12.168qh.com" port="41213" type="0"/>
+<server server="sh-front14.168qh.com" port="41213" type="0"/>
+<server server="sh-front11.mfc.com.cn" port="41213" type="0"/>
+<server server="sh-front12.mfc.com.cn" port="41213" type="0"/>
+<server server="sh-front14.mfc.com.cn" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="sh-front11.168qh.com" port="41205" type="1"/>
+<server server="sh-front12.168qh.com" port="41205" type="1"/>
+<server server="sh-front14.168qh.com" port="41205" type="1"/>
+<server server="sh-front11.mfc.com.cn" port="41205" type="1"/>
+<server server="sh-front12.mfc.com.cn" port="41205" type="1"/>
+<server server="sh-front14.mfc.com.cn" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="美尔雅期货_CTP" groupname="武汉电信">
+<hq>
+<server server="219.140.196.82" port="41213" type="0"/>
+<server server="59.173.87.211" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="219.140.196.82" port="41205" type="1"/>
+<server server="59.173.87.211" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="4050" brokername="金源期货_CTP" attribute="0" qsid="CTP">
+<group brokername="金源期货_CTP" groupname="上海电信">
+<hq>
+<server server="shjy-front1-shctc-ctp.jyqh.com.cn" port="41213" type="0"/>
+<server server="116.228.31.211" port="41213" type="0"/>
+<server server="shjy-front1-shbgp-ctp.jyqh.com.cn" port="41213" type="0"/>
+<server server="shjy-front2-shbgp-ctp.jyqh.com.cn" port="41213" type="0"/>
+<server server="101.231.1.96" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="shjy-front1-shctc-ctp.jyqh.com.cn" port="41205" type="1"/>
+<server server="116.228.31.211" port="41205" type="1"/>
+<server server="shjy-front1-shbgp-ctp.jyqh.com.cn" port="41205" type="1"/>
+<server server="shjy-front2-shbgp-ctp.jyqh.com.cn" port="41205" type="1"/>
+<server server="101.231.1.96" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="金源期货_CTP" groupname="上海网通">
+<hq>
+<server server="shjy-front1-shcnc-ctp.jyqh.com.cn" port="41213" type="0"/>
+<server server="shjy-front2-shcnc-ctp.jyqh.com.cn" port="41213" type="0"/>
+<server server="27.115.57.92" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="shjy-front1-shcnc-ctp.jyqh.com.cn" port="41205" type="1"/>
+<server server="shjy-front2-shcnc-ctp.jyqh.com.cn" port="41205" type="1"/>
+<server server="27.115.57.92" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="6010" brokername="浙商期货_CTP" attribute="0" qsid="CTP">
+<group brokername="浙商期货_CTP" groupname="上海电信">
+<hq>
+<server server="180.169.75.194" port="41213" type="0"/>
+<server server="180.166.1.17" port="41213" type="0"/>
+<server server="115.238.34.151" port="41213" type="0"/>
+<server server="122.224.243.41" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.169.75.194" port="41205" type="1"/>
+<server server="180.166.1.17" port="41205" type="1"/>
+<server server="115.238.34.151" port="41205" type="1"/>
+<server server="122.224.243.41" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="浙商期货_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.112.130" port="41213" type="0"/>
+<server server="124.160.35.53" port="41213" type="0"/>
+<server server="221.12.4.101" port="41213" type="0"/>
+<server server="140.206.112.142" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.112.130" port="41205" type="1"/>
+<server server="124.160.35.53" port="41205" type="1"/>
+<server server="221.12.4.101" port="41205" type="1"/>
+<server server="140.206.112.142" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="9050" brokername="国都期货_CTP" attribute="0" qsid="CTP">
+<group brokername="国都期货_CTP" groupname="上海电信">
+<hq>
+<server server="180.166.45.98" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.166.45.98" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="国都期货_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.102.218" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.102.218" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="7080" brokername="鲁证期货_CTP" attribute="0" qsid="CTP">
+<group brokername="鲁证期货_CTP" groupname="上海电信">
+<hq>
+<server server="telfront1.luzhengqh.com" port="41213" type="0"/>
+<server server="telfront2.lzqh.net.cn" port="41213" type="0"/>
+<server server="101.95.28.86" port="41213" type="0"/>
+<server server="101.231.61.85" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="telfront1.luzhengqh.com" port="41205" type="1"/>
+<server server="telfront2.lzqh.net.cn" port="41205" type="1"/>
+<server server="101.95.28.86" port="41205" type="1"/>
+<server server="101.231.61.85" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="鲁证期货_CTP" groupname="上海网通">
+<hq>
+<server server="cncfront1.luzhengqh.com" port="41213" type="0"/>
+<server server="cncfront2.lzqh.net.cn" port="41213" type="0"/>
+<server server="140.206.100.222" port="41213" type="0"/>
+<server server="58.246.96.181" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="cncfront1.luzhengqh.com" port="41205" type="1"/>
+<server server="cncfront2.lzqh.net.cn" port="41205" type="1"/>
+<server server="140.206.100.222" port="41205" type="1"/>
+<server server="58.246.96.181" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="鲁证期货_CTP" groupname="济南电信">
+<hq>
+<server server="58.56.70.21" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="58.56.70.21" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="鲁证期货_CTP" groupname="济南网通">
+<hq>
+<server server="218.56.58.216" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="218.56.58.216" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="9030" brokername="第一创业_CTP" attribute="0" qsid="CTP">
+<group brokername="第一创业_CTP" groupname="上海电信">
+<hq>
+<server server="ctpdx-md1.fcfco.cn" port="41213" type="0"/>
+<server server="180.166.30.97" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="ctpdx-tr1.fcfco.cn" port="41205" type="1"/>
+<server server="180.166.30.97" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="第一创业_CTP" groupname="上海网通">
+<hq>
+<server server="ctplt-md1.fcfco.cn" port="41213" type="0"/>
+<server server="140.206.102.178" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="ctplt-tr1.fcfco.cn" port="41205" type="1"/>
+<server server="140.206.102.178" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="7010" brokername="国联期货_CTP" attribute="0" qsid="CTP">
+<group brokername="国联期货_CTP" groupname="上海电信">
+<hq>
+<server server="ctp-dx1.glqh.com" port="41213" type="0"/>
+<server server="ctp-dx2.glqh.com" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="ctp-dx1.glqh.com" port="41205" type="1"/>
+<server server="ctp-dx2.glqh.com" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="国联期货_CTP" groupname="上海网通">
+<hq>
+<server server="ctp-lt1.glqh.com" port="41213" type="0"/>
+<server server="ctp-lt2.glqh.com" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="ctp-lt1.glqh.com" port="41205" type="1"/>
+<server server="ctp-lt2.glqh.com" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0187" brokername="国贸期货_CTP" attribute="0" qsid="CTP">
+<group brokername="国贸期货_CTP" groupname="上海电信">
+<hq>
+<server server="101.95.8.190" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="101.95.8.190" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="国贸期货_CTP" groupname="上海网通">
+<hq>
+<server server="220.248.44.146" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="220.248.44.146" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="16333" brokername="华西期货_CTP" attribute="0" qsid="CTP">
+<group brokername="华西期货_CTP" groupname="上海电信">
+<hq>
+<server server="cddx-a1t1.hxqh168.com" port="41213" type="0"/>
+<server server="cddx-a1t2.hxqh168.com" port="41213" type="0"/>
+<server server="cddx-a1t3.hxqh168.com" port="41213" type="0"/>
+<server server="cddx-a1t4.hxqh168.com" port="41213" type="0"/>
+<server server="180.168.102.231" port="41213" type="0"/>
+<server server="180.168.102.232" port="41213" type="0"/>
+<server server="180.168.102.233" port="41213" type="0"/>
+<server server="180.168.102.234" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="cddx-a1t1.hxqh168.com" port="41205" type="1"/>
+<server server="cddx-a1t2.hxqh168.com" port="41205" type="1"/>
+<server server="cddx-a1t3.hxqh168.com" port="41205" type="1"/>
+<server server="cddx-a1t4.hxqh168.com" port="41205" type="1"/>
+<server server="180.168.102.231" port="41205" type="1"/>
+<server server="180.168.102.232" port="41205" type="1"/>
+<server server="180.168.102.233" port="41205" type="1"/>
+<server server="180.168.102.234" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="华西期货_CTP" groupname="上海网通">
+<hq>
+<server server="cdlt-a1t1.hxqh168.com" port="41213" type="0"/>
+<server server="cdlt-a1t2.hxqh168.com" port="41213" type="0"/>
+<server server="cdlt-a1t3.hxqh168.com" port="41213" type="0"/>
+<server server="cdlt-a1t4.hxqh168.com" port="41213" type="0"/>
+<server server="112.64.143.218" port="41213" type="0"/>
+<server server="112.64.143.219" port="41213" type="0"/>
+<server server="112.64.143.220" port="41213" type="0"/>
+<server server="112.64.143.221" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="cdlt-a1t1.hxqh168.com" port="41205" type="1"/>
+<server server="cdlt-a1t2.hxqh168.com" port="41205" type="1"/>
+<server server="cdlt-a1t3.hxqh168.com" port="41205" type="1"/>
+<server server="cdlt-a1t4.hxqh168.com" port="41205" type="1"/>
+<server server="112.64.143.218" port="41205" type="1"/>
+<server server="112.64.143.219" port="41205" type="1"/>
+<server server="112.64.143.220" port="41205" type="1"/>
+<server server="112.64.143.221" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="16333" brokername="华西期货二席_CTP" attribute="0" qsid="CTP">
+<group brokername="华西期货二席_CTP" groupname="上海电信">
+<hq>
+<server server="180.168.102.225" port="51213" type="0"/>
+<server server="180.168.102.226" port="51213" type="0"/>
+</hq>
+<trade>
+<server server="180.168.102.225" port="51205" type="1"/>
+<server server="180.168.102.226" port="51205" type="1"/>
+</trade>
+</group>
+<group brokername="华西期货二席_CTP" groupname="上海网通">
+<hq>
+<server server="112.64.143.222" port="51213" type="0"/>
+<server server="112.64.129.118" port="51213" type="0"/>
+</hq>
+<trade>
+<server server="112.64.143.222" port="51205" type="1"/>
+<server server="112.64.129.118" port="51205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="7070" brokername="东航期货CTP_CTP" attribute="0" qsid="CTP">
+<group brokername="东航期货CTP_CTP" groupname="上海电信">
+<hq>
+<server server="116.236.239.136" port="41213" type="0"/>
+<server server="116.236.239.137" port="41213" type="0"/>
+<server server="116.236.239.138" port="41213" type="0"/>
+<server server="116.236.239.139" port="41213" type="0"/>
+<server server="101.230.192.177" port="41213" type="0"/>
+<server server="101.230.192.178" port="41213" type="0"/>
+<server server="222.66.97.247" port="41213" type="0"/>
+<server server="222.66.97.248" port="41213" type="0"/>
+<server server="180.153.146.45" port="41213" type="0"/>
+<server server="180.153.146.46" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="116.236.239.136" port="41205" type="1"/>
+<server server="116.236.239.137" port="41205" type="1"/>
+<server server="116.236.239.138" port="41205" type="1"/>
+<server server="116.236.239.139" port="41205" type="1"/>
+<server server="101.230.192.177" port="41205" type="1"/>
+<server server="101.230.192.178" port="41205" type="1"/>
+<server server="222.66.97.247" port="41205" type="1"/>
+<server server="222.66.97.248" port="41205" type="1"/>
+<server server="180.153.146.45" port="41205" type="1"/>
+<server server="180.153.146.46" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="东航期货CTP_CTP" groupname="上海网通">
+<hq>
+<server server="112.64.143.146" port="41213" type="0"/>
+<server server="112.64.143.147" port="41213" type="0"/>
+<server server="112.64.143.148" port="41213" type="0"/>
+<server server="112.64.143.149" port="41213" type="0"/>
+<server server="58.246.171.65" port="41213" type="0"/>
+<server server="58.246.171.66" port="41213" type="0"/>
+<server server="210.13.65.102" port="41214" type="0"/>
+<server server="210.13.65.102" port="41215" type="0"/>
+</hq>
+<trade>
+<server server="112.64.143.146" port="41205" type="1"/>
+<server server="112.64.143.147" port="41205" type="1"/>
+<server server="112.64.143.148" port="41205" type="1"/>
+<server server="112.64.143.149" port="41205" type="1"/>
+<server server="58.246.171.65" port="41205" type="1"/>
+<server server="58.246.171.66" port="41205" type="1"/>
+<server server="210.13.65.102" port="41206" type="1"/>
+<server server="210.13.65.102" port="41207" type="1"/>
+</trade>
+</group>
+<group brokername="东航期货CTP_CTP" groupname="郑州电信">
+<hq>
+<server server="171.8.2.67" port="41213" type="0"/>
+<server server="171.8.2.68" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="171.8.2.67" port="41205" type="1"/>
+<server server="171.8.2.68" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="东航期货CTP_CTP" groupname="郑州网通">
+<hq>
+<server server="61.163.100.67" port="41213" type="0"/>
+<server server="61.163.100.68" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="61.163.100.67" port="41205" type="1"/>
+<server server="61.163.100.68" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="东航期货CTP_CTP" groupname="南汇电信">
+<hq>
+<server server="180.153.146.45" port="41213" type="0"/>
+<server server="180.153.146.46" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.153.146.45" port="41205" type="1"/>
+<server server="180.153.146.46" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="东航期货CTP_CTP" groupname="杭州电信">
+<hq>
+<server server="115.236.99.141" port="41213" type="0"/>
+<server server="115.236.99.142" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="115.236.99.141" port="41205" type="1"/>
+<server server="115.236.99.142" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="7070" brokername="东航期货二席_CTP" attribute="0" qsid="CTP">
+<group brokername="东航期货二席_CTP" groupname="上海电信">
+<hq>
+<server server="116.236.239.133" port="41213" type="0"/>
+<server server="116.236.239.134" port="41213" type="0"/>
+<server server="222.66.97.254" port="41213" type="0"/>
+<server server="ctp1.kiiik.com" port="41213" type="0"/>
+<server server="ctp2.kiiik.com" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="116.236.239.133" port="41205" type="1"/>
+<server server="116.236.239.134" port="41205" type="1"/>
+<server server="222.66.97.254" port="41205" type="1"/>
+<server server="ctp1.kiiik.com" port="41205" type="1"/>
+<server server="ctp2.kiiik.com" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="东航期货二席_CTP" groupname="上海网通">
+<hq>
+<server server="112.64.143.156" port="41213" type="0"/>
+<server server="112.64.143.157" port="41213" type="0"/>
+<server server="210.13.65.102" port="41213" type="0"/>
+<server server="ctp1.kiiik.com" port="41213" type="0"/>
+<server server="ctp2.kiiik.com" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="112.64.143.156" port="41205" type="1"/>
+<server server="112.64.143.157" port="41205" type="1"/>
+<server server="210.13.65.102" port="41205" type="1"/>
+<server server="ctp1.kiiik.com" port="41205" type="1"/>
+<server server="ctp2.kiiik.com" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="东航期货二席_CTP" groupname="郑州电信">
+<hq>
+<server server="171.8.2.70" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="171.8.2.70" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="东航期货二席_CTP" groupname="郑州网通">
+<hq>
+<server server="61.163.100.70" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="61.163.100.70" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="8016" brokername="首创期货主席_CTP" attribute="0" qsid="CTP">
+<group brokername="首创期货主席_CTP" groupname="上海电信">
+<hq>
+<server server="101.230.15.17" port="41213" type="0"/>
+<server server="101.230.15.18" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="101.230.15.17" port="41205" type="1"/>
+<server server="101.230.15.18" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="首创期货主席_CTP" groupname="上海网通">
+<hq>
+<server server="211.95.67.117" port="41213" type="0"/>
+<server server="211.95.67.118" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="211.95.67.117" port="41205" type="1"/>
+<server server="211.95.67.118" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="首创期货主席_CTP" groupname="盘后查询电信">
+<hq>
+<server server="211.95.67.114" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="211.95.67.114" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="首创期货主席_CTP" groupname="盘后查询网通">
+<hq>
+<server server="211.95.67.114" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="211.95.67.114" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="8016" brokername="首创期货二席_CTP" attribute="0" qsid="CTP">
+<group brokername="首创期货二席_CTP" groupname="上海电信">
+<hq>
+<server server="180.166.30.113" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.166.30.113" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="首创期货二席_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.102.161" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.102.161" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="2070" brokername="宏源期货_CTP" attribute="0" qsid="CTP">
+<group brokername="宏源期货_CTP" groupname="上海电信">
+<hq>
+<server server="180.169.112.50" port="41213" type="0"/>
+<server server="180.169.112.51" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.169.112.50" port="41205" type="1"/>
+<server server="180.169.112.51" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="宏源期货_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.101.108" port="41213" type="0"/>
+<server server="140.206.101.107" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.101.108" port="41205" type="1"/>
+<server server="140.206.101.107" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="8899" brokername="五矿经易期货主席_CTP" attribute="0" qsid="CTP">
+<group brokername="五矿经易期货主席_CTP" groupname="上海电信">
+<hq>
+<server server="101.231.127.50" port="41213" type="0"/>
+<server server="101.231.127.51" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="101.231.127.50" port="41205" type="1"/>
+<server server="101.231.127.51" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="五矿经易期货主席_CTP" groupname="上海网通">
+<hq>
+<server server="211.95.40.228" port="41213" type="0"/>
+<server server="211.95.40.229" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="211.95.40.228" port="41205" type="1"/>
+<server server="211.95.40.229" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="6080" brokername="格林大华期货_CTP" attribute="0" qsid="CTP">
+<group brokername="格林大华期货_CTP" groupname="上海电信">
+<hq>
+<server server="180.169.99.50" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.169.99.50" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="格林大华期货_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.129.110" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.129.110" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="6050" brokername="瑞龙期货_CTP" attribute="0" qsid="CTP">
+<group brokername="瑞龙期货_CTP" groupname="上海电信">
+<hq>
+<server server="180.169.116.211" port="41213" type="0"/>
+<server server="180.169.116.212" port="41213" type="0"/>
+<server server="180.169.116.213" port="41213" type="0"/>
+<server server="180.169.116.214" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.169.116.211" port="41205" type="1"/>
+<server server="180.169.116.212" port="41205" type="1"/>
+<server server="180.169.116.213" port="41205" type="1"/>
+<server server="180.169.116.214" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="瑞龙期货_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.101.91" port="41213" type="0"/>
+<server server="140.206.101.92" port="41213" type="0"/>
+<server server="140.206.101.93" port="41213" type="0"/>
+<server server="140.206.101.94" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.101.91" port="41205" type="1"/>
+<server server="140.206.101.92" port="41205" type="1"/>
+<server server="140.206.101.93" port="41205" type="1"/>
+<server server="140.206.101.94" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="瑞龙期货_CTP" groupname="深圳电信">
+<hq>
+<server server="113.106.77.43" port="41213" type="0"/>
+<server server="113.106.77.45" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="113.106.77.43" port="41205" type="1"/>
+<server server="113.106.77.45" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="瑞龙期货_CTP" groupname="深圳网通">
+<hq>
+<server server="113.106.77.43" port="41213" type="0"/>
+<server server="113.106.77.45" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="113.106.77.43" port="41205" type="1"/>
+<server server="113.106.77.45" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="9040" brokername="海证期货_CTP" attribute="0" qsid="CTP">
+<group brokername="海证期货_CTP" groupname="上海电信">
+<hq>
+<server server="ctp1.hicend.com.cn" port="41213" type="0"/>
+<server server="ctp2.hicend.com.cn" port="41213" type="0"/>
+<server server="180.166.75.131" port="41213" type="0"/>
+<server server="180.166.75.132" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="ctp1.hicend.com.cn" port="41205" type="1"/>
+<server server="ctp2.hicend.com.cn" port="41205" type="1"/>
+<server server="180.166.75.131" port="41205" type="1"/>
+<server server="180.166.75.132" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="海证期货_CTP" groupname="上海网通">
+<hq>
+<server server="ctp5.hicend.com.cn" port="41213" type="0"/>
+<server server="ctp6.hicend.com.cn" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="ctp5.hicend.com.cn" port="41205" type="1"/>
+<server server="ctp6.hicend.com.cn" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="4060" brokername="中财期货_CTP" attribute="0" qsid="CTP">
+<group brokername="中财期货_CTP" groupname="上海电信">
+<hq>
+<server server="180.168.159.239" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.168.159.239" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="中财期货_CTP" groupname="上海网通">
+<hq>
+<server server="27.115.78.110" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="27.115.78.110" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="9080" brokername="中信建投二席_CTP" attribute="0" qsid="CTP">
+<group brokername="中信建投二席_CTP" groupname="上海电信">
+<hq>
+<server server="180.166.25.17" port="41213" type="0"/>
+<server server="180.166.25.18" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.166.25.17" port="41205" type="1"/>
+<server server="180.166.25.18" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="中信建投二席_CTP" groupname="上海网通">
+<hq>
+<server server="27.115.57.105" port="41213" type="0"/>
+<server server="27.115.57.106" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="27.115.57.105" port="41205" type="1"/>
+<server server="27.115.57.106" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="4700" brokername="东海期货_CTP" attribute="0" qsid="CTP">
+<group brokername="东海期货_CTP" groupname="上海电信">
+<hq>
+<server server="ctpdx1.dh168.com.cn" port="41213" type="0"/>
+<server server="ctpdx2.dh168.com.cn" port="41213" type="0"/>
+<server server="180.166.67.246" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="ctpdx1.dh168.com.cn" port="41205" type="1"/>
+<server server="ctpdx2.dh168.com.cn" port="41205" type="1"/>
+<server server="180.166.67.246" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="东海期货_CTP" groupname="上海网通">
+<hq>
+<server server="ctplt1.dh168.com.cn" port="41213" type="0"/>
+<server server="ctplt2.dh168.com.cn" port="41213" type="0"/>
+<server server="140.206.125.102" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="ctplt1.dh168.com.cn" port="41205" type="1"/>
+<server server="ctplt2.dh168.com.cn" port="41205" type="1"/>
+<server server="140.206.125.102" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="4600" brokername="弘业期货_CTP" attribute="0" qsid="CTP">
+<group brokername="弘业期货_CTP" groupname="上海电信">
+<hq>
+<server server="180.166.45.35" port="41213" type="0"/>
+<server server="180.166.45.36" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.166.45.35" port="41205" type="1"/>
+<server server="180.166.45.36" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="弘业期货_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.102.195" port="41213" type="0"/>
+<server server="140.206.102.196" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.102.195" port="41205" type="1"/>
+<server server="140.206.102.196" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="9060" brokername="创元期货_CTP" attribute="0" qsid="CTP">
+<group brokername="创元期货_CTP" groupname="上海电信">
+<hq>
+<server server="58.210.142.202" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="58.210.142.202" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="创元期货_CTP" groupname="上海网通">
+<hq>
+<server server="122.193.24.170" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="122.193.24.170" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="4400" brokername="华创期货_CTP" attribute="0" qsid="CTP">
+<group brokername="华创期货_CTP" groupname="上海电信">
+<hq>
+<server server="hcqh-md1.financial-trading-platform.com" port="41213" type="0"/>
+<server server="hcqh-md3.financial-trading-platform.com" port="41213" type="0"/>
+<server server="hcqh-md4.financial-trading-platform.com" port="41213" type="0"/>
+<server server="hcqh-hq1.other.financial-trading-platform.net" port="30700" type="0"/>
+</hq>
+<trade>
+<server server="hcqh-front1.financial-trading-platform.com" port="41205" type="1"/>
+<server server="hcqh-front3.financial-trading-platform.com" port="41205" type="1"/>
+<server server="hcqh-front4.financial-trading-platform.com" port="41205" type="1"/>
+<server server="hcqh-jy1.other.financial-trading-platform.net" port="30600" type="1"/>
+</trade>
+</group>
+<group brokername="华创期货_CTP" groupname="上海网通">
+<hq>
+<server server="hcqh-md2.financial-trading-platform.com" port="41213" type="0"/>
+<server server="hcqh-hq2.other.financial-trading-platform.net" port="30700" type="0"/>
+</hq>
+<trade>
+<server server="hcqh-front2.financial-trading-platform.com" port="41205" type="1"/>
+<server server="hcqh-jy2.other.financial-trading-platform.net" port="30600" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="4500" brokername="国投中谷_CTP" attribute="0" qsid="CTP">
+<group brokername="国投中谷_CTP" groupname="上海电信">
+<hq>
+<server server="180.166.45.113" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.166.45.113" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="国投中谷_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.101.51" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.101.51" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="4900" brokername="东吴期货_CTP" attribute="0" qsid="CTP">
+<group brokername="东吴期货_CTP" groupname="上海电信">
+<hq>
+<server server="ctp-md1.dwqh-trading-platform.com" port="41213" type="0"/>
+<server server="ctp-md2.dwqh-trading-platform.com" port="41213" type="0"/>
+<server server="ctp-md3.dwqh-trading-platform.com" port="41213" type="0"/>
+<server server="ctp-md1.dwqh-trading-platform.com.cn" port="41213" type="0"/>
+<server server="ctp-md2.dwqh-trading-platform.com.cn" port="41213" type="0"/>
+<server server="ctp-md3.dwqh-trading-platform.com.cn" port="41213" type="0"/>
+<server server="180.169.116.99" port="41213" type="0"/>
+<server server="180.169.116.100" port="41213" type="0"/>
+<server server="221.224.159.11" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="ctp-front1.dwqh-trading-platform.com" port="41205" type="1"/>
+<server server="ctp-front2.dwqh-trading-platform.com" port="41205" type="1"/>
+<server server="ctp-front3.dwqh-trading-platform.com" port="41205" type="1"/>
+<server server="ctp-front1.dwqh-trading-platform.com.cn" port="41205" type="1"/>
+<server server="ctp-front2.dwqh-trading-platform.com.cn" port="41205" type="1"/>
+<server server="ctp-front3.dwqh-trading-platform.com.cn" port="41205" type="1"/>
+<server server="180.169.116.99" port="41205" type="1"/>
+<server server="180.169.116.100" port="41205" type="1"/>
+<server server="221.224.159.11" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="东吴期货_CTP" groupname="上海网通">
+<hq>
+<server server="ctp-md4.dwqh-trading-platform.com" port="41213" type="0"/>
+<server server="ctp-md5.dwqh-trading-platform.com" port="41213" type="0"/>
+<server server="ctp-md4.dwqh-trading-platform.com.cn" port="41213" type="0"/>
+<server server="ctp-md5.dwqh-trading-platform.com.cn" port="41213" type="0"/>
+<server server="140.206.101.228" port="41213" type="0"/>
+<server server="140.206.101.229" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="ctp-front4.dwqh-trading-platform.com" port="41205" type="1"/>
+<server server="ctp-front5.dwqh-trading-platform.com" port="41205" type="1"/>
+<server server="ctp-front4.dwqh-trading-platform.com.cn" port="41205" type="1"/>
+<server server="ctp-front5.dwqh-trading-platform.com.cn" port="41205" type="1"/>
+<server server="140.206.101.228" port="41205" type="1"/>
+<server server="140.206.101.229" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="5040" brokername="中银国际_CTP" attribute="0" qsid="CTP">
+<group brokername="中银国际_CTP" groupname="上海电信">
+<hq>
+<server server="116.228.64.6" port="41213" type="0"/>
+<server server="116.228.64.7" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="116.228.64.6" port="41205" type="1"/>
+<server server="116.228.64.7" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="中银国际_CTP" groupname="上海网通">
+<hq>
+<server server="27.115.105.112" port="41213" type="0"/>
+<server server="27.115.105.122" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="27.115.105.112" port="41205" type="1"/>
+<server server="27.115.105.122" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="5100" brokername="瑞达期货_CTP" attribute="0" qsid="CTP">
+<group brokername="瑞达期货_CTP" groupname="上海电信">
+<hq>
+<server server="180.166.6.245" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.166.6.245" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="瑞达期货_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.101.165" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.101.165" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="5600" brokername="中大期货_CTP" attribute="0" qsid="CTP">
+<group brokername="中大期货_CTP" groupname="上海电信">
+<hq>
+<server server="180.169.124.125" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.169.124.125" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="中大期货_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.102.115" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.102.115" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="5010" brokername="国金主席_CTP" attribute="0" qsid="CTP">
+<group brokername="国金主席_CTP" groupname="上海电信">
+<hq>
+<server server="116.228.52.242" port="11213" type="0"/>
+<server server="180.169.68.3" port="11213" type="0"/>
+<server server="shdx-ctp1.gjqh.com.cn" port="11213" type="0"/>
+</hq>
+<trade>
+<server server="116.228.52.242" port="11205" type="1"/>
+<server server="180.169.68.3" port="11205" type="1"/>
+<server server="shdx-ctp1.gjqh.com.cn" port="11205" type="1"/>
+</trade>
+</group>
+<group brokername="国金主席_CTP" groupname="上海网通">
+<hq>
+<server server="112.65.179.242" port="11213" type="0"/>
+</hq>
+<trade>
+<server server="112.65.179.242" port="11205" type="1"/>
+</trade>
+</group>
+<group brokername="国金主席_CTP" groupname="成都电信">
+<hq>
+<server server="125.64.21.36" port="11213" type="0"/>
+</hq>
+<trade>
+<server server="125.64.21.36" port="11205" type="1"/>
+</trade>
+</group>
+<group brokername="国金主席_CTP" groupname="成都网通">
+<hq>
+<server server="119.6.88.66" port="11213" type="0"/>
+</hq>
+<trade>
+<server server="119.6.88.66" port="11205" type="1"/>
+</trade>
+</group>
+<group brokername="国金主席_CTP" groupname="盘后查询电信">
+<hq>
+<server server="116.228.52.242" port="61213" type="0"/>
+</hq>
+<trade>
+<server server="116.228.52.242" port="61205" type="1"/>
+</trade>
+</group>
+<group brokername="国金主席_CTP" groupname="盘后查询网通">
+<hq>
+<server server="112.65.179.242" port="61213" type="0"/>
+</hq>
+<trade>
+<server server="112.65.179.242" port="61205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="5010" brokername="国金二席new_CTP" attribute="0" qsid="CTP">
+<group brokername="国金二席new_CTP" groupname="上海电信">
+<hq>
+<server server="116.228.52.242" port="21213" type="0"/>
+<server server="180.169.68.3" port="21213" type="0"/>
+</hq>
+<trade>
+<server server="116.228.52.242" port="21205" type="1"/>
+<server server="180.169.68.3" port="21205" type="1"/>
+</trade>
+</group>
+<group brokername="国金二席new_CTP" groupname="上海网通">
+<hq>
+<server server="112.65.179.242" port="21213" type="0"/>
+</hq>
+<trade>
+<server server="112.65.179.242" port="21205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="5200" brokername="平安期货_CTP" attribute="0" qsid="CTP">
+<group brokername="平安期货_CTP" groupname="上海电信">
+<hq>
+<server server="180.166.64.161" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.166.64.161" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="平安期货_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.102.234" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.102.234" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="9070" brokername="浙江新世纪_CTP" attribute="0" qsid="CTP">
+<group brokername="浙江新世纪_CTP" groupname="上海电信">
+<hq>
+<server server="180.166.47.112" port="41213" type="0"/>
+<server server="180.166.47.113" port="41213" type="0"/>
+
+</hq>
+<trade>
+<server server="180.166.47.112" port="41205" type="1"/>
+<server server="180.166.47.113" port="41205" type="1"/>
+
+</trade>
+</group>
+<group brokername="浙江新世纪_CTP" groupname="上海网通">
+<hq>
+<server server="27.115.57.244" port="41213" type="0"/>
+<server server="27.115.57.245" port="41213" type="0"/>
+
+</hq>
+<trade>
+<server server="27.115.57.244" port="41205" type="1"/>
+<server server="27.115.57.245" port="41205" type="1"/>
+
+</trade>
+</group>
+</broker>
+<broker brokerid="20000" brokername="永安期货_CTP" attribute="0" qsid="CTP">
+<group brokername="永安期货_CTP" groupname="上海电信">
+<hq>
+<server server="180.169.124.109" port="41213" type="0"/>
+<server server="180.169.124.110" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.169.124.109" port="41205" type="1"/>
+<server server="180.169.124.110" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="永安期货_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.102.109" port="41213" type="0"/>
+<server server="140.206.102.110" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.102.109" port="41205" type="1"/>
+<server server="140.206.102.110" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="10001" brokername="华鑫期货主席_CTP" attribute="0" qsid="CTP">
+<group brokername="华鑫期货主席_CTP" groupname="上海电信">
+<hq>
+<server server="180.169.70.181" port="41213" type="0"/>
+<server server="180.169.70.182" port="41213" type="0"/>
+<server server="180.169.70.183" port="41213" type="0"/>
+<server server="180.169.70.184" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.169.70.181" port="41205" type="1"/>
+<server server="180.169.70.182" port="41205" type="1"/>
+<server server="180.169.70.183" port="41205" type="1"/>
+<server server="180.169.70.184" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="华鑫期货主席_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.102.21" port="41213" type="0"/>
+<server server="140.206.102.22" port="41213" type="0"/>
+<server server="140.206.102.23" port="41213" type="0"/>
+<server server="140.206.102.24" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.102.21" port="41205" type="1"/>
+<server server="140.206.102.22" port="41205" type="1"/>
+<server server="140.206.102.23" port="41205" type="1"/>
+<server server="140.206.102.24" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="10001" brokername="华鑫期货次席_CTP" attribute="0" qsid="CTP">
+<group brokername="华鑫期货次席_CTP" groupname="上海电信">
+<hq>
+<server server="180.169.70.179" port="41213" type="0"/>
+<server server="180.169.70.180" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.169.70.179" port="41205" type="1"/>
+<server server="180.169.70.180" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="华鑫期货次席_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.102.19" port="41213" type="0"/>
+<server server="140.206.102.20" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.102.19" port="41205" type="1"/>
+<server server="140.206.102.20" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="9099" brokername="同信久恒_CTP" attribute="0" qsid="CTP">
+<group brokername="同信久恒_CTP" groupname="上海电信">
+<hq>
+<server server="180.166.13.17" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.166.13.17" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="同信久恒_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.101.137" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.101.137" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0029" brokername="国海良时_CTP" attribute="0" qsid="CTP">
+<group brokername="国海良时_CTP" groupname="上海电信">
+<hq>
+<server server="183.129.147.147" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="183.129.147.147" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="国海良时_CTP" groupname="上海网通">
+<hq>
+<server server="60.12.142.59" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="60.12.142.59" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="9090" brokername="西部期货_CTP" attribute="0" qsid="CTP">
+<group brokername="西部期货_CTP" groupname="上海电信">
+<hq>
+<server server="116.246.21.17" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="116.246.21.17" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="西部期货_CTP" groupname="上海网通">
+<hq>
+<server server="211.95.58.146" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="211.95.58.146" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="西部期货_CTP" groupname="西安电信">
+<hq>
+<server server="124.114.143.163" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="124.114.143.163" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="8888" brokername="金瑞期货_CTP" attribute="0" qsid="CTP">
+<group brokername="金瑞期货_CTP" groupname="上海电信">
+<hq>
+<server server="101.231.3.125" port="41213" type="0"/>
+<server server="101.231.3.126" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="101.231.3.125" port="41205" type="1"/>
+<server server="101.231.3.126" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="金瑞期货_CTP" groupname="上海网通">
+<hq>
+<server server="27.115.79.61" port="41213" type="0"/>
+<server server="27.115.79.62" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="27.115.79.61" port="41205" type="1"/>
+<server server="27.115.79.62" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="95533" brokername="建信期货主席_CTP" attribute="0" qsid="CTP">
+<group brokername="建信期货主席_CTP" groupname="上海电信">
+<hq>
+<server server="101.230.192.97" port="41213" type="0"/>
+<server server="101.230.192.98" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="101.230.192.97" port="41205" type="1"/>
+<server server="101.230.192.98" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="建信期货主席_CTP" groupname="上海网通">
+<hq>
+<server server="211.95.58.131" port="41213" type="0"/>
+<server server="211.95.58.132" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="211.95.58.131" port="41205" type="1"/>
+<server server="211.95.58.132" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="9999" brokername="大有期货_CTP" attribute="0" qsid="CTP">
+<group brokername="大有期货_CTP" groupname="上海电信">
+<hq>
+<server server="116.228.31.234" port="41213" type="0"/>
+<server server="116.228.31.235" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="116.228.31.234" port="41205" type="1"/>
+<server server="116.228.31.235" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="大有期货_CTP" groupname="上海网通">
+<hq>
+<server server="27.115.57.69" port="41213" type="0"/>
+<server server="27.115.57.70" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="27.115.57.69" port="41205" type="1"/>
+<server server="27.115.57.70" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="8888" brokername="大陆期货_CTP" attribute="0" qsid="CTP">
+<group brokername="大陆期货_CTP" groupname="上海电信">
+<hq>
+<server server="61.172.206.73" port="32111" type="0"/>
+<server server="61.172.206.78" port="32111" type="0"/>
+</hq>
+<trade>
+<server server="61.172.206.73" port="41205" type="1"/>
+<server server="61.172.206.78" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="大陆期货_CTP" groupname="上海网通">
+<hq>
+<server server="210.51.25.90" port="32111" type="0"/>
+<server server="210.51.25.86" port="32111" type="0"/>
+</hq>
+<trade>
+<server server="210.51.25.90" port="41205" type="1"/>
+<server server="210.51.25.86" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="3003" brokername="广永期货_CTP" attribute="0" qsid="CTP">
+<group brokername="广永期货_CTP" groupname="上海电信">
+<hq>
+<server server="113.108.198.99" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="113.108.198.99" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="广永期货_CTP" groupname="上海网通">
+<hq>
+<server server="58.249.126.197" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="58.249.126.197" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0001" brokername="宝城期货_CTP" attribute="0" qsid="CTP">
+<group brokername="宝城期货_CTP" groupname="上海电信">
+<hq>
+<server server="222.68.181.33" port="41213" type="0"/>
+<server server="222.68.181.34" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="222.68.181.33" port="41205" type="1"/>
+<server server="222.68.181.34" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="宝城期货_CTP" groupname="上海网通">
+<hq>
+<server server="27.115.57.219" port="41213" type="0"/>
+<server server="27.115.57.220" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="27.115.57.219" port="41205" type="1"/>
+<server server="27.115.57.220" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="5300" brokername="中钢期货_CTP" attribute="0" qsid="CTP">
+<group brokername="中钢期货_CTP" groupname="上海电信">
+<hq>
+<server server="180.166.58.211" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.166.58.211" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="中钢期货_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.102.211" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.102.211" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="4300" brokername="长江期货_CTP" attribute="0" qsid="CTP">
+<group brokername="长江期货_CTP" groupname="上海电信">
+<hq>
+<server server="222.66.192.247" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="222.66.192.247" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="长江期货_CTP" groupname="上海网通">
+<hq>
+<server server="210.22.147.52" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="210.22.147.52" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="长江期货_CTP" groupname="武汉电信">
+<hq>
+<server server="wh-dx-trade1.cjqh.com" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="wh-dx-trade1.cjqh.com" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="长江期货_CTP" groupname="武汉网通">
+<hq>
+<server server="wh-lt-trade1.cjqh.com" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="wh-lt-trade1.cjqh.com" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="8090" brokername="国际期货二席_CTP" attribute="0" qsid="CTP">
+<group brokername="国际期货二席_CTP" groupname="上海电信">
+<hq>
+<server server="180.169.101.98" port="41213" type="0"/>
+<server server="180.169.101.108" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.169.101.98" port="41205" type="1"/>
+<server server="180.169.101.108" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="国际期货二席_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.101.81" port="41213" type="0"/>
+<server server="140.206.101.85" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.101.81" port="41205" type="1"/>
+<server server="140.206.101.85" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="8888" brokername="良运期货_CTP" attribute="0" qsid="CTP">
+<group brokername="良运期货_CTP" groupname="上海电信">
+<hq>
+<server server="124.74.245.187" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="124.74.245.187" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="良运期货_CTP" groupname="上海网通">
+<hq>
+<server server="120.136.169.45" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="120.136.169.45" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="2013" brokername="海航东银_CTP" attribute="0" qsid="CTP">
+<group brokername="海航东银_CTP" groupname="上海电信">
+<hq>
+<server server="124.74.246.152" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="124.74.246.152" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="海航东银_CTP" groupname="上海网通">
+<hq>
+<server server="120.136.169.26" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="120.136.169.26" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0150" brokername="通慧期货_CTP" attribute="0" qsid="CTP">
+<group brokername="通慧期货_CTP" groupname="上海电信">
+<hq>
+<server server="222.66.238.66" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="222.66.238.66" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="通慧期货_CTP" groupname="上海网通">
+<hq>
+<server server="112.64.129.30" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="112.64.129.30" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="8888" brokername="锦泰期货二席_CTP" attribute="0" qsid="CTP">
+<group brokername="锦泰期货二席_CTP" groupname="上海电信">
+<hq>
+<server server="58.213.125.201" port="41213" type="0"/>
+<server server="58.213.125.202" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="58.213.125.201" port="41205" type="1"/>
+<server server="58.213.125.202" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="锦泰期货二席_CTP" groupname="上海网通">
+<hq>
+<server server="112.80.230.35" port="41213" type="0"/>
+<server server="112.80.230.36" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="112.80.230.35" port="41205" type="1"/>
+<server server="112.80.230.36" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="3082" brokername="经易期货_CTP" attribute="0" qsid="CTP">
+<group brokername="经易期货_CTP" groupname="上海电信">
+<hq>
+<server server="116.228.171.179" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="116.228.171.179" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="经易期货_CTP" groupname="上海网通">
+<hq>
+<server server="27.115.57.125" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="27.115.57.125" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="1025" brokername="金友期货_CTP" attribute="0" qsid="CTP">
+<group brokername="金友期货_CTP" groupname="上海电信">
+<hq>
+<server server="101.95.8.250" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="101.95.8.250" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="金友期货_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.103.182" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.103.182" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="3989" brokername="新晟期货_CTP" attribute="0" qsid="CTP">
+<group brokername="新晟期货_CTP" groupname="上海电信">
+<hq>
+<server server="180.166.182.18" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.166.182.18" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="新晟期货_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.103.218" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.103.218" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="6868" brokername="中融汇信主席_CTP" attribute="0" qsid="CTP">
+<group brokername="中融汇信主席_CTP" groupname="上海电信">
+<hq>
+<server server="222.68.181.198" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="222.68.181.198" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="中融汇信主席_CTP" groupname="上海网通">
+<hq>
+<server server="27.115.57.100" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="27.115.57.100" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="8888" brokername="中州期货_CTP" attribute="0" qsid="CTP">
+<group brokername="中州期货_CTP" groupname="上海电信">
+<hq>
+<server server="61.152.165.58" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="61.152.165.58" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="中州期货_CTP" groupname="上海网通">
+<hq>
+<server server="120.136.169.18" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="120.136.169.18" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="8888" brokername="徽商期货_CTP" attribute="0" qsid="CTP">
+<group brokername="徽商期货_CTP" groupname="上海电信">
+<hq>
+<server server="118.242.3.178" port="41173" type="0"/>
+<server server="118.242.3.179" port="41173" type="0"/>
+<server server="49.239.1.90" port="41173" type="0"/>
+<server server="49.239.1.91" port="41173" type="0"/>
+</hq>
+<trade>
+<server server="118.242.3.178" port="41205" type="1"/>
+<server server="118.242.3.179" port="41205" type="1"/>
+<server server="49.239.1.90" port="41205" type="1"/>
+<server server="49.239.1.91" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="徽商期货_CTP" groupname="上海网通">
+<hq>
+<server server="27.115.57.196" port="41173" type="0"/>
+<server server="27.115.57.197" port="41173" type="0"/>
+</hq>
+<trade>
+<server server="27.115.57.196" port="41205" type="1"/>
+<server server="27.115.57.197" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0034" brokername="方正中期_CTP" attribute="0" qsid="CTP">
+<group brokername="方正中期_CTP" groupname="上海电信">
+<hq>
+<server server="180.166.0.225" port="28213" type="0"/>
+<server server="180.166.0.226" port="28213" type="0"/>
+<server server="180.166.0.227" port="28213" type="0"/>
+<server server="180.166.0.228" port="28213" type="0"/>
+<server server="180.166.0.229" port="28213" type="0"/>
+<server server="180.166.0.230" port="28213" type="0"/>
+</hq>
+<trade>
+<server server="180.166.0.225" port="28205" type="1"/>
+<server server="180.166.0.226" port="28205" type="1"/>
+<server server="180.166.0.227" port="28205" type="1"/>
+<server server="180.166.0.228" port="28205" type="1"/>
+<server server="180.166.0.229" port="28205" type="1"/>
+<server server="180.166.0.230" port="28205" type="1"/>
+</trade>
+</group>
+<group brokername="方正中期_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.102.129" port="28213" type="0"/>
+<server server="140.206.102.130" port="28213" type="0"/>
+<server server="140.206.102.131" port="28213" type="0"/>
+<server server="140.206.102.132" port="28213" type="0"/>
+<server server="140.206.102.133" port="28213" type="0"/>
+<server server="140.206.102.134" port="28213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.102.129" port="28205" type="1"/>
+<server server="140.206.102.130" port="28205" type="1"/>
+<server server="140.206.102.131" port="28205" type="1"/>
+<server server="140.206.102.132" port="28205" type="1"/>
+<server server="140.206.102.133" port="28205" type="1"/>
+<server server="140.206.102.134" port="28205" type="1"/>
+</trade>
+</group>
+<group brokername="方正中期_CTP" groupname="长沙电信">
+<hq>
+<server server="222.247.36.26" port="28213" type="0"/>
+<server server="222.247.36.27" port="28213" type="0"/>
+</hq>
+<trade>
+<server server="222.247.36.26" port="28205" type="1"/>
+<server server="222.247.36.27" port="28205" type="1"/>
+</trade>
+</group>
+<group brokername="方正中期_CTP" groupname="长沙网通">
+<hq>
+<server server="58.20.35.90" port="28213" type="0"/>
+<server server="58.20.35.91" port="28213" type="0"/>
+</hq>
+<trade>
+<server server="58.20.35.90" port="28205" type="1"/>
+<server server="58.20.35.91" port="28205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="8888" brokername="中粮期货_CTP" attribute="0" qsid="CTP">
+<group brokername="中粮期货_CTP" groupname="上海电信">
+<hq>
+<server server="180.166.183.113" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.166.183.113" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="中粮期货_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.103.242" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.103.242" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0268" brokername="金汇期货_CTP" attribute="0" qsid="CTP">
+<group brokername="金汇期货_CTP" groupname="上海电信">
+<hq>
+<server server="180.166.125.146" port="41213" type="0"/>
+<server server="180.166.125.147" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.166.125.146" port="41205" type="1"/>
+<server server="180.166.125.147" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="金汇期货_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.103.68" port="41213" type="0"/>
+<server server="140.206.103.67" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.103.68" port="41205" type="1"/>
+<server server="140.206.103.67" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0076" brokername="道通期货_CTP" attribute="0" qsid="CTP">
+<group brokername="道通期货_CTP" groupname="南京电信">
+<hq>
+<server server="221.226.83.132" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="221.226.83.132" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="道通期货_CTP" groupname="南京网通">
+<hq>
+<server server="122.96.60.235" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="122.96.60.235" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="道通期货_CTP" groupname="上海网通">
+<hq>
+<server server="122.96.60.235" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="122.96.60.235" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0177" brokername="大地期货_CTP" attribute="0" qsid="CTP">
+<group brokername="大地期货_CTP" groupname="上海电信">
+<hq>
+<server server="124.74.246.67" port="41213" type="0"/>
+<server server="124.74.246.68" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="124.74.246.67" port="41205" type="1"/>
+<server server="124.74.246.68" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="大地期货_CTP" groupname="上海网通">
+<hq>
+<server server="211.144.194.211" port="41213" type="0"/>
+<server server="211.144.194.212" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="211.144.194.211" port="41205" type="1"/>
+<server server="211.144.194.212" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0001" brokername="东方汇金期货_CTP" attribute="0" qsid="CTP">
+<group brokername="东方汇金期货_CTP" groupname="上海电信">
+<hq>
+<server server="61.152.165.50" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="61.152.165.50" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="东方汇金期货_CTP" groupname="上海网通">
+<hq>
+<server server="211.144.193.106" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="211.144.193.106" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="9080" brokername="中信建投主席_CTP" attribute="0" qsid="CTP">
+<group brokername="中信建投主席_CTP" groupname="重庆电信">
+<hq>
+<server server="61.186.254.135" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="61.186.254.135" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="中信建投主席_CTP" groupname="重庆网通">
+<hq>
+<server server="113.204.21.162" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="113.204.21.162" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="中信建投主席_CTP" groupname="北京电信"/>
+<group brokername="中信建投主席_CTP" groupname="北京网通">
+<hq>
+<server server="202.130.235.165" port="41213" type="0"/>
+<server server="202.130.235.168" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="202.130.235.165" port="41205" type="1"/>
+<server server="202.130.235.168" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="中信建投主席_CTP" groupname="上海电信">
+<hq>
+<server server="222.73.111.150" port="41213" type="0"/>
+<server server="222.73.111.146" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="222.73.111.150" port="41205" type="1"/>
+<server server="222.73.111.146" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="中信建投主席_CTP" groupname="上海网通"/>
+<group brokername="中信建投主席_CTP" groupname="广州电信">
+<hq>
+<server server="59.42.241.91" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="59.42.241.91" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="中信建投主席_CTP" groupname="广州网通"/>
+</broker>
+<broker brokerid="0274" brokername="中辉期货_CTP" attribute="0" qsid="CTP">
+<group brokername="中辉期货_CTP" groupname="上海电信">
+<hq>
+<server server="222.66.18.190" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="222.66.18.190" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="中辉期货_CTP" groupname="上海网通">
+<hq>
+<server server="58.246.210.210" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="58.246.210.210" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0262" brokername="英大期货_CTP" attribute="0" qsid="CTP">
+<group brokername="英大期货_CTP" groupname="上海电信">
+<hq>
+<server server="116.228.211.14" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="116.228.211.14" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="英大期货_CTP" groupname="上海网通">
+<hq>
+<server server="220.248.87.246" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="220.248.87.246" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="3497" brokername="西南期货_CTP" attribute="0" qsid="CTP">
+<group brokername="西南期货_CTP" groupname="上海电信">
+<hq>
+<server server="180.169.116.182" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.169.116.182" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="西南期货_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.101.62" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.101.62" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0089" brokername="金元期货_CTP" attribute="0" qsid="CTP">
+<group brokername="金元期货_CTP" groupname="上海电信">
+<hq>
+<server server="101.95.8.170" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="101.95.8.170" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="金元期货_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.103.34" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.103.34" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0003" brokername="盛达期货_CTP" attribute="0" qsid="CTP">
+<group brokername="盛达期货_CTP" groupname="上海电信">
+<hq>
+<server server="101.231.85.161" port="32100" type="0"/>
+</hq>
+<trade>
+<server server="101.231.85.161" port="32000" type="1"/>
+</trade>
+</group>
+<group brokername="盛达期货_CTP" groupname="上海网通">
+<hq>
+<server server="140.207.161.193" port="32100" type="0"/>
+</hq>
+<trade>
+<server server="140.207.161.193" port="32000" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="6080" brokername="首创京都_CTP" attribute="0" qsid="CTP">
+<group brokername="首创京都_CTP" groupname="北京电信">
+<hq>
+<server server="106.37.227.218" port="41213" type="0"/>
+<server server="106.37.227.219" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="106.37.227.218" port="41205" type="1"/>
+<server server="106.37.227.219" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="首创京都_CTP" groupname="北京网通">
+<hq>
+<server server="114.255.188.44" port="41213" type="0"/>
+<server server="114.255.188.45" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="114.255.188.44" port="41205" type="1"/>
+<server server="114.255.188.45" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0099" brokername="东华期货二席_CTP" attribute="0" qsid="CTP">
+<group brokername="东华期货二席_CTP" groupname="上海电信">
+<hq>
+<server server="116.228.171.196" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="116.228.171.196" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="东华期货二席_CTP" groupname="上海网通">
+<hq>
+<server server="118.242.3.43" port="41213" type="0"/>
+<server server="118.242.3.12" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="118.242.3.43" port="41205" type="1"/>
+<server server="118.242.3.12" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="7000" brokername="招金期货_CTP" attribute="0" qsid="CTP">
+<group brokername="招金期货_CTP" groupname="上海电信">
+<hq>
+<server server="101.231.38.81" port="41213" type="0"/>
+<server server="101.231.38.82" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="101.231.38.81" port="41205" type="1"/>
+<server server="101.231.38.82" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="招金期货_CTP" groupname="上海网通">
+<hq>
+<server server="211.95.58.69" port="41213" type="0"/>
+<server server="211.95.58.70" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="211.95.58.69" port="41205" type="1"/>
+<server server="211.95.58.70" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="1025" brokername="迈科期货_CTP" attribute="0" qsid="CTP">
+<group brokername="迈科期货_CTP" groupname="上海电信">
+<hq>
+<server server="101.231.43.209" port="41213" type="0"/>
+<server server="101.231.43.210" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="101.231.43.209" port="41205" type="1"/>
+<server server="101.231.43.210" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="迈科期货_CTP" groupname="上海网通">
+<hq>
+<server server="211.95.58.83" port="41213" type="0"/>
+<server server="211.95.58.84" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="211.95.58.83" port="41205" type="1"/>
+<server server="211.95.58.84" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0011" brokername="倍特期货MINI_CTP" attribute="0" qsid="CTP">
+<group brokername="倍特期货MINI_CTP" groupname="上海电信">
+<hq>
+<server server="btqh-hq1.other.financial-trading-platform.net" port="31500" type="0"/>
+</hq>
+<trade>
+<server server="btqh-jy1.other.financial-trading-platform.net" port="31400" type="1"/>
+</trade>
+</group>
+<group brokername="倍特期货MINI_CTP" groupname="上海网通">
+<hq>
+<server server="btqh-hq2.other.financial-trading-platform.net" port="31500" type="0"/>
+</hq>
+<trade>
+<server server="btqh-jy2.other.financial-trading-platform.net" port="31400" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0097" brokername="津投期货_CTP" attribute="0" qsid="CTP">
+<group brokername="津投期货_CTP" groupname="上海电信">
+<hq>
+<server server="180.168.62.70" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.168.62.70" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="津投期货_CTP" groupname="上海网通">
+<hq>
+<server server="27.115.56.245" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="27.115.56.245" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="2014" brokername="国富期货_CTP" attribute="0" qsid="CTP">
+<group brokername="国富期货_CTP" groupname="上海电信">
+<hq>
+<server server="124.74.247.126" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="124.74.247.126" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="国富期货_CTP" groupname="上海网通">
+<hq>
+<server server="120.136.170.102" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="120.136.170.102" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0017" brokername="兴业期货Mini_CTP" attribute="0" qsid="CTP">
+<group brokername="兴业期货Mini_CTP" groupname="上海电信">
+<hq>
+<server server="xingyetouzi-hq1.other.financial-trading-platform.net" port="31700" type="0"/>
+</hq>
+<trade>
+<server server="xingyetouzi-jy1.other.financial-trading-platform.net" port="31600" type="1"/>
+</trade>
+</group>
+<group brokername="兴业期货Mini_CTP" groupname="上海网通">
+<hq>
+<server server="xingyetouzi-hq2.other.financial-trading-platform.net" port="31700" type="0"/>
+</hq>
+<trade>
+<server server="xingyetouzi-jy2.other.financial-trading-platform.net" port="31600" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="8000" brokername="兴业期货_CTP" attribute="0" qsid="CTP">
+<group brokername="兴业期货_CTP" groupname="上海电信">
+<hq>
+<server server="114.80.104.121" port="41213" type="0"/>
+<server server="114.80.104.122" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="114.80.104.121" port="41205" type="1"/>
+<server server="114.80.104.122" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="兴业期货_CTP" groupname="上海网通">
+<hq>
+<server server="140.207.238.1" port="41205" type="0"/>
+<server server="140.207.238.2" port="41205" type="0"/>
+</hq>
+<trade>
+<server server="140.207.238.1" port="41213" type="1"/>
+<server server="140.207.238.2" port="41213" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0126" brokername="南证期货_CTP" attribute="0" qsid="CTP">
+<group brokername="南证期货_CTP" groupname="上海电信">
+<hq>
+<server server="124.74.247.2" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="124.74.247.2" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="南证期货_CTP" groupname="上海网通">
+<hq>
+<server server="120.136.170.2" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="120.136.170.2" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0038" brokername="混沌天成_CTP" attribute="0" qsid="CTP">
+<group brokername="混沌天成_CTP" groupname="上海电信">
+<hq>
+<server server="101.226.255.133" port="41213" type="0"/>
+<server server="101.226.255.136" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="101.226.255.133" port="41205" type="1"/>
+<server server="101.226.255.137" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="混沌天成_CTP" groupname="上海网通">
+<hq>
+<server server="140.207.226.104" port="41213" type="0"/>
+<server server="140.207.226.102" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.207.226.105" port="41205" type="1"/>
+<server server="140.207.226.104" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="1000" brokername="信达期货_CTP" attribute="0" qsid="CTP">
+<group brokername="信达期货_CTP" groupname="上海电信">
+<hq>
+<server server="222.66.101.190" port="27215" type="0"/>
+<server server="124.74.248.120" port="27215" type="0"/>
+</hq>
+<trade>
+<server server="222.66.101.190" port="27205" type="1"/>
+<server server="124.74.248.120" port="27205" type="1"/>
+</trade>
+</group>
+<group brokername="信达期货_CTP" groupname="上海网通">
+<hq>
+<server server="120.136.171.84" port="27215" type="0"/>
+</hq>
+<trade>
+<server server="120.136.171.84" port="27205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0006" brokername="信达期货mini_CTP" attribute="0" qsid="CTP">
+<group brokername="信达期货mini_CTP" groupname="上海电信">
+<hq>
+<server server="cindaqh-jy1.other.financial-trading-platform.net" port="31500" type="0"/>
+<server server="222.66.101.189" port="27215" type="0"/>
+</hq>
+<trade>
+<server server="cindaqh-hq1.other.financial-trading-platform.net" port="31400" type="1"/>
+<server server="222.66.101.189" port="27205" type="1"/>
+</trade>
+</group>
+<group brokername="信达期货mini_CTP" groupname="上海网通">
+<hq>
+<server server="cindaqh-jy2.other.financial-trading-platform.net" port="31500" type="0"/>
+</hq>
+<trade>
+<server server="cindaqh-hq2.other.financial-trading-platform.net" port="31400" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0023" brokername="大越期货mini_CTP" attribute="0" qsid="CTP">
+<group brokername="大越期货mini_CTP" groupname="上海电信">
+<hq>
+<server server="dyqh-hq1.other.financial-trading-platform.net" port="31900" type="0"/>
+</hq>
+<trade>
+<server server="dyqh-jy1.other.financial-trading-platform.net" port="31800" type="1"/>
+</trade>
+</group>
+<group brokername="大越期货mini_CTP" groupname="上海网通">
+<hq>
+<server server="dyqh-hq2.other.financial-trading-platform.net" port="31900" type="0"/>
+</hq>
+<trade>
+<server server="dyqh-jy2.other.financial-trading-platform.net" port="31800" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0059" brokername="万达期货次席_CTP" attribute="0" qsid="CTP">
+<group brokername="万达期货次席_CTP" groupname="上海电信">
+<hq>
+<server server="180.169.95.148" port="41213" type="0"/>
+<server server="180.169.95.149" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.169.95.148" port="41205" type="1"/>
+<server server="180.169.95.149" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="万达期货次席_CTP" groupname="上海网通">
+<hq>
+<server server="112.64.131.139" port="41213" type="0"/>
+<server server="112.64.131.140" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="112.64.131.139" port="41205" type="1"/>
+<server server="112.64.131.140" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="万达期货次席_CTP" groupname="郑州电信">
+<hq>
+<server server="222.88.34.245" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="222.88.34.245" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="万达期货次席_CTP" groupname="郑州网通">
+<hq>
+<server server="125.46.74.245" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="125.46.74.245" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="万达期货次席_CTP" groupname="新疆电信">
+<hq>
+<server server="124.117.241.106" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="124.117.241.106" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="万达期货次席_CTP" groupname="新疆网通"/>
+</broker>
+<broker brokerid="0018" brokername="安粮期货MINI_CTP" attribute="0" qsid="CTP">
+<group brokername="安粮期货MINI_CTP" groupname="上海电信">
+<hq>
+<server server="ahcoffco-hq1.other.financial-trading-platform.net" port="30300" type="0"/>
+</hq>
+<trade>
+<server server="ahcoffco-jy1.other.financial-trading-platform.net" port="30200" type="1"/>
+</trade>
+</group>
+<group brokername="安粮期货MINI_CTP" groupname="上海网通">
+<hq>
+<server server="ahcoffco-hq2.other.financial-trading-platform.net" port="30300" type="0"/>
+</hq>
+<trade>
+<server server="ahcoffco-jy2.other.financial-trading-platform.net" port="30200" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="8888" brokername="华闻期货_CTP" attribute="0" qsid="CTP">
+<group brokername="华闻期货_CTP" groupname="上海电信">
+<hq>
+<server server="116.247.83.172" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="116.247.83.172" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="华闻期货_CTP" groupname="上海网通">
+<hq>
+<server server="27.115.57.20" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="27.115.57.20" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0037" brokername="冠通期货_CTP" attribute="0" qsid="CTP">
+<group brokername="冠通期货_CTP" groupname="上海电信">
+<hq>
+<server server="101.231.208.152" port="41213" type="0"/>
+<server server="180.166.134.102" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="101.231.208.152" port="41205" type="1"/>
+<server server="180.166.134.102" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="冠通期货_CTP" groupname="上海网通">
+<hq>
+<server server="112.64.149.72" port="41213" type="0"/>
+<server server="140.206.103.92" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="112.64.149.72" port="41205" type="1"/>
+<server server="140.206.103.92" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0193" brokername="金石期货_CTP" attribute="0" qsid="CTP">
+<group brokername="金石期货_CTP" groupname="上海电信">
+<hq>
+<server server="180.166.11.5" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.166.11.5" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="金石期货_CTP" groupname="上海网通">
+<hq>
+<server server="27.115.79.21" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="27.115.79.21" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0769" brokername="华联期货_CTP" attribute="0" qsid="CTP">
+<group brokername="华联期货_CTP" groupname="上海电信">
+<hq>
+<server server="61.152.165.130" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="61.152.165.130" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="华联期货_CTP" groupname="上海网通">
+<hq>
+<server server="211.144.193.34" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="211.144.193.34" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0013" brokername="国元期货_CTP" attribute="0" qsid="CTP">
+<group brokername="国元期货_CTP" groupname="上海电信">
+<hq>
+<server server="guoyuanqh-hq1.other.financial-trading-platform.net" port="30700" type="0"/>
+</hq>
+<trade>
+<server server="guoyuanqh-jy1.other.financial-trading-platform.net" port="30600" type="1"/>
+</trade>
+</group>
+<group brokername="国元期货_CTP" groupname="上海网通">
+<hq>
+<server server="guoyuanqh-hq2.other.financial-trading-platform.net" port="30700" type="0"/>
+</hq>
+<trade>
+<server server="guoyuanqh-jy2.other.financial-trading-platform.net" port="30600" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0020" brokername="鑫鼎盛VPN_CTP" attribute="0" qsid="CTP">
+<group brokername="鑫鼎盛VPN_CTP" groupname="上海电信">
+<hq>
+<server server="172.16.84.65" port="27215" type="0"/>
+</hq>
+<trade>
+<server server="172.16.84.65" port="27205" type="1"/>
+</trade>
+</group>
+<group brokername="鑫鼎盛VPN_CTP" groupname="上海网通">
+<hq>
+<server server="172.16.84.65" port="27215" type="0"/>
+</hq>
+<trade>
+<server server="172.16.84.65" port="27205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0320" brokername="德盛期货_CTP" attribute="0" qsid="CTP">
+<group brokername="德盛期货_CTP" groupname="上海电信">
+<hq>
+<server server="101.226.253.65" port="41213" type="0"/>
+<server server="101.226.253.66" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="101.226.253.65" port="41205" type="1"/>
+<server server="101.226.253.66" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="德盛期货_CTP" groupname="上海网通">
+<hq>
+<server server="140.207.226.129" port="41213" type="0"/>
+<server server="140.207.226.130" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.207.226.129" port="41205" type="1"/>
+<server server="140.207.226.130" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="德盛期货_CTP" groupname="长沙电信">
+<hq>
+<server server="101.226.253.65" port="41213" type="0"/>
+<server server="101.226.253.66" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="218.76.45.153" port="41205" type="1"/>
+<server server="218.76.45.154" port="41205" type="1"/>
+<server server="218.76.45.155" port="41205" type="1"/>
+<server server="218.76.45.156" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="德盛期货_CTP" groupname="长沙网通">
+<hq>
+<server server="140.207.226.129" port="41213" type="0"/>
+<server server="140.207.226.130" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="42.48.104.157" port="41205" type="1"/>
+<server server="42.48.104.157" port="41206" type="1"/>
+<server server="42.48.104.157" port="41207" type="1"/>
+<server server="42.48.104.157" port="41208" type="1"/>
+</trade>
+</group>
+<group brokername="德盛期货_CTP" groupname="盘后查询">
+<hq>
+<server server="101.226.253.67" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="101.226.253.67" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0195" brokername="山金期货_CTP" attribute="0" qsid="CTP">
+<group brokername="山金期货_CTP" groupname="互联网">
+<hq>
+<server server="222.66.61.197" port="41213" type="0"/>
+<server server="140.206.102.3" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="222.66.61.197" port="41205" type="1"/>
+<server server="140.206.102.3" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0001" brokername="东亚期货_CTP" attribute="0" qsid="CTP">
+<group brokername="东亚期货_CTP" groupname="上海电信">
+<hq>
+<server server="180.166.192.33" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="180.166.192.33" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="东亚期货_CTP" groupname="上海网通">
+<hq>
+<server server="140.206.103.178" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="140.206.103.178" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0001" brokername="天风期货_CTP" attribute="0" qsid="CTP">
+<group brokername="天风期货_CTP" groupname="电信线路">
+<hq>
+<server server="101.95.5.78" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="101.95.5.78" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="天风期货_CTP" groupname="网通线路">
+<hq>
+<server server="58.246.252.108" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="58.246.252.108" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="0189" brokername="新纪元期货_CTP" attribute="0" qsid="CTP">
+<group brokername="新纪元期货_CTP" groupname="电信线路">
+<hq>
+<server server="218.3.241.15" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="218.3.241.15" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="新纪元期货_CTP" groupname="网通线路">
+<hq>
+<server server="221.6.214.232" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="221.6.214.232" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="7777" brokername="长安期货_CTP" attribute="0" qsid="CTP">
+<group brokername="长安期货_CTP" groupname="电信线路">
+<hq>
+<server server="101.231.61.94" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="101.231.61.94" port="41205" type="1"/>
+</trade>
+</group>
+<group brokername="长安期货_CTP" groupname="网通线路">
+<hq>
+<server server="58.246.96.190" port="41213" type="0"/>
+</hq>
+<trade>
+<server server="58.246.96.190" port="41205" type="1"/>
+</trade>
+</group>
+</broker>
+<broker brokerid="9999" brokername="上期技术SimNow_CTP" attribute="0" qsid="CTP">
+<group brokername="上期技术SimNow_CTP" groupname="主站">
+<hq>
+<server server="180.168.146.187" port="10010" type="1"/>
+</hq>
+<trade>
+<server server="180.168.146.187" port="10000" type="0"/>
+</trade>
+</group>
+</broker>
+</brokers>
