@@ -6,9 +6,40 @@
 
 import time
 import datetime
-
+import numpy as np
+import pandas as pd
+import tushare as ts
+from examples.TushareDataService.config import pro
+from examples.TushareDataService.conner import engine,db,insert_sql, del_sql
+from examples.TushareDataService.getdata import get_trade_date  #,get_fina_indicator, get_basic, get_code_list_300, get_code_list_all #, get_moneyflow
 from examples.TushareDataService.dataService import downloadAllMinuteBar
 
+def get_neardownloaddate_sql():
+    # 使用cursor()方法获取操作游标
+    cursor = db.cursor()
+    ssql = "SELECT  trade_date  FROM  stock_data_day order by trade_date limit 1;"
+    # sql = "select" + tb_name + "from INFORMATION_SCHEMA.TABLES where TABLE_SCHEMA = 'stock' and TABLE_NAME = " + tb_name
+    try:
+        # 执行SQL语句
+        cursor.execute(ssql)
+        # 获取查询结果
+        data_sql=cursor.fetchall()
+        for row in data_sql:
+            fdate = row[0]
+        #data_sql = cursor.fetchone()
+        #data_sql = pd.read_sql_query(ssql, engine)
+        print(fdate)
+    except:
+        # 发生错误时回滚
+        # db.rollback()
+        data_sql = 0
+        print('不存在！')
+        pass
+    # 关闭游标
+    cursor.close()
+    # 关闭数据库连接
+    db.close()
+    return  fdate
 
 if __name__ == '__main__':
     '''
@@ -32,7 +63,12 @@ if __name__ == '__main__':
         time.sleep(60)
     '''
     exists = 'append'
-    end_dt = str(time.strftime("%Y%m%d", time.localtime()))
-    time_temp =datetime.datetime.now() - datetime.timedelta(days=7)
-    start_dt = time_temp.strftime('%Y%m%d')
+    fdate=get_neardownloaddate_sql()
+    ftrade_date = get_trade_date(fdate)
+    if ftrade_date=='False':
+        print('数据库记录无日期')
+    elif ftrade_date == 'True':
+        print('当天数据已经下载')
+    elif len(ftrade_date)==8:
+        start_dt=ftrade_date
     downloadAllMinuteBar(start_dt, exists)

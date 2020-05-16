@@ -1,0 +1,15 @@
+sqlalchemy
+tushare 
+pymysql 
+requests 
+lxml 
+bs4 
+numpy 
+pandas 
+scipy
+matplotlib 
+openpyxl
+xlwt
+xlrd 
+jupyterlab
+mysql-connector-python

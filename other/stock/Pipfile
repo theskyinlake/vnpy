@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "http://mirrors.aliyun.com/pypi/simple/"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+sqlalchemy = "*"
+tushare = "*"
+pymysql = "*"
+requests = "*"
+lxml = "*"
+bs4 = "*"
+numpy = "*"
+pandas = "*"
+scipy = "*"
+matplotlib = "*"
+openpyxl = "*"
+xlwt = "*"
+xlrd = "*"
+jupyterlab = "*"
+mysql-connector-python = "*"
+
+[requires]
+python_version = "3.6"

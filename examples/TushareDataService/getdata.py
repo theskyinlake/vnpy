@@ -8,7 +8,7 @@ import pandas as pd
 from .config import pro
 ###############################################################################
 # 获取交易日的日期
-def get_trade_date():
+def get_trade_date(fdate):
     dt_now = str(time.strftime("%Y%m%d", time.localtime()))
     time_temp = datetime.datetime.now() - datetime.timedelta(days=20)
     start_dt = time_temp.strftime('%Y%m%d')
@@ -16,12 +16,30 @@ def get_trade_date():
     df_trade = df_trade.sort_values(by=['cal_date'], ascending=0)
     df_trade = df_trade[df_trade['is_open'] == 1]
     df_trade = df_trade.reset_index(drop=True)
-    trade_date0 = df_trade.loc[0, 'cal_date'] # 获取当前交易日的日期
-    trade_date1 = df_trade.loc[1, 'cal_date'] # 获取上一个交易日的日期
-    trade_date2 = df_trade.loc[2, 'cal_date'] # 获取上上一个交易日的日期
-    return trade_date0,trade_date1,trade_date2
+    print(fdate)
+    if fdate == '' :
+        ftrade_date='False'
+    elif len(fdate)==8:
+        for i in range(len(df_trade)):
+            if df_trade.loc[i, 'cal_date'] == fdate:
+                if i==0:
+                    if df_trade.loc[0, 'cal_date']==dt_now:
+                        ftrade_date='True'
+                    elif df_trade.loc[0, 'cal_date']<dt_now:
+                        ftrade_date=dt_now
+                    else:
+                        pass
+                else:
+                    ftrade_date=df_trade.loc[i-1, 'cal_date']
+            else:
+                pass
+    return ftrade_date
+    #trade_date0 = df_trade.loc[0, 'cal_date'] # 获取当前交易日的日期
+    #trade_date1 = df_trade.loc[1, 'cal_date'] # 获取上一个交易日的日期
+    #trade_date2 = df_trade.loc[2, 'cal_date'] # 获取上上一个交易日的日期
+    #return ftrade_date #,trade_date0,trade_date1,trade_date2
 #####################################################################
-get_trade_cal , get_last_trade_cal , get_last_trade_cal1 = get_trade_date()
+#ftrade_date,get_trade_cal , get_last_trade_cal , get_last_trade_cal1 = get_trade_date()
 
 ######################利润#########################
 def get_fina_indicator():
